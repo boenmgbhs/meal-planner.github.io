@@ -1,0 +1,118 @@
+@font-face { 
+    font-family: Helios; 
+    src: url('fonts/Helios.ttf'); 
+} 
+
+
+header {
+    height: 720px;
+    background-image:url('images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: block;
+    position: sticky;
+}
+
+    .nav-bg {
+        height: 360px;
+        top: 150px; 
+        position: relative;
+        background-color: white;
+        opacity: 0.9;
+        z-index: 1;
+    }
+
+    .main-header {
+        display: block;
+    }
+
+        .header-elements {
+            display: block;
+            position: relative;
+            z-index: 2;
+            top: -180px;
+        }
+
+        .logo-element {
+            display: inline-block;
+        }
+
+            .logo {
+                width: 600px;
+                margin-left: 200px;
+                display: inline-block;
+            }
+
+        .nav-buttons {
+            display: inline-block;
+            top: 100px;
+            position: absolute;
+            margin-left: 15px;
+
+        }
+
+        .home-button, .download-button {
+            color: white;
+            margin: 15px;
+            font-family: Helios;
+            font-size: x-large;
+            background-color: black;
+            padding-right: 30px;
+            padding-left: 30px;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            border-radius: 15px 15px;
+            font-weight: bold;
+        }
+
+        .about-us-button {
+            color: white;
+            font-family: Helios;
+            font-size: x-large;
+            margin: 15px;
+            background-color: black;
+            padding-right: 30px;
+            padding-left: 30px;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            border-radius: 15px 15px;
+            font-weight: bold;
+        }
+
+            .about {
+                display: inline-block;
+                margin: 0px;
+                padding: 0px;
+            }
+
+            .us {
+                display: inline-block;
+                color: #ff914d;
+                margin: 0px;
+                padding: 0px;
+            }
+
+body {
+    margin: 0px;
+}
+
+    .body1 {
+        display: block;
+    }
+
+        .intro-bg {
+            z-index: 1;
+            position: relative;
+        }
+
+        .introduction-section {
+            display: block;
+        }
+
+            .intro-elements {
+                display: block;
+                z-index: 2;
+                position: relative;
+                top: -1000px;
+            }
