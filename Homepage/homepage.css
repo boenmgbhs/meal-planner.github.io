@@ -1,0 +1,13 @@
+header {
+    height: 720px;
+    background-image:url('images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-bg {
+    height: 360px;
+    background-color: white;
+    opacity: 0.5;
+    margin-top: 60px;
+    
+}
