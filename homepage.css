@@ -402,4 +402,41 @@
                             display: block;
                             text-align: center;
                         }
+
+
+    
+                        /* this is for the 4th page */
+    
+                        .pick {
+                            background-image: url(images/bg3.png);
+                            min-height: 120vh;
+                            width: 100%;
+                            background-position: center;
+                            background-size: cover;
+                            position: relative;
+                            overflow: hidden;
+                        }
+                        
+                        .pick .title {
+                            text-align: center;
+                            padding-left: 20px;
+                            padding-top: 100px; /* Adjust the top padding to move the image down */
+                        }
+                        
+                        .pick .title img.replacement-image {
+                            display: block;
+                            margin: 0 auto; /* Center the image */
+                            /* Add any additional styling you need for the image */
+                        }
+                        
+                        .pick .content {
+                            display: inline-block;
+                        }
+                        
+                        .pick .content p {
+                            font-size: 25.5px;
+                            margin-top: 20%;
+                            margin-left: 65%;
+                            text-align: left;
+                        }
 }
