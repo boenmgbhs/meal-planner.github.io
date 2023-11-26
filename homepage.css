@@ -1,22 +1,25 @@
+@media only screen and (max-width: 600px) {
+    
+}
 
+@media only screen and (min-width: 600px) {
     @font-face { 
         font-family: Helios; 
         src: url('fonts/Helios.ttf'); 
     } 
 
     header {
-        height: 720px;
+        height: 355px;
         background-image:url('images/header-bg.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top;
         display: block;
-        position: sticky;
     }
 
         .nav-bg {
-            height: 360px;
-            top: 150px; 
+            height: 213px;
+            top: 68px; 
             position: relative;
             background-color: white;
             opacity: 0.9;
@@ -31,7 +34,7 @@
                 display: block;
                 position: relative;
                 z-index: 2;
-                top: -180px;
+                top: -88px;
             }
 
             .logo-element {
@@ -39,44 +42,44 @@
             }
 
                 .logo {
-                    width: 600px;
-                    margin-left: 200px;
+                    width: 237px;
+                    margin-left: 59px;
                     display: inline-block;
                 }
 
             .nav-buttons {
                 display: inline-block;
-                top: 100px;
+                top: 20px;
                 position: absolute;
-                margin-left: 15px;
+                margin-left: 0px;
 
             }
 
             .home-button, .download-button {
                 color: white;
-                margin: 15px;
+                margin: 5px;
                 font-family: Helios;
-                font-size: x-large;
+                font-size: 15px;
                 background-color: black;
-                padding-right: 30px;
-                padding-left: 30px;
-                padding-bottom: 15px;
-                padding-top: 15px;
-                border-radius: 15px 15px;
+                padding-right: 8px;
+                padding-left: 8px;
+                padding-bottom: 4px;
+                padding-top: 4px;
+                border-radius: 4px 4px;
                 font-weight: bold;
             }
 
             .about-us-button {
                 color: white;
                 font-family: Helios;
-                font-size: x-large;
-                margin: 15px;
+                font-size: 15px;
+                margin: 4px;
                 background-color: black;
-                padding-right: 30px;
-                padding-left: 30px;
-                padding-bottom: 15px;
-                padding-top: 15px;
-                border-radius: 15px 15px;
+                padding-right: 8px;
+                padding-left: 8px;
+                padding-bottom: 4px;
+                padding-top: 4px;
+                border-radius: 4px 4px;
                 font-weight: bold;
             }
         
@@ -112,7 +115,291 @@
 
                 .intro-elements {
                     display: block;
-                    z-index: 2;
                     position: relative;
-                    top: -1000px;
+                    top: -510px;
+                    z-index: 2;
                 }
+                    /* This is the DIV for INTRODUCTION image.*/
+                    .intro-text-image {
+                        margin-left: 192px;
+                        text-align: center;
+                        display: block;
+                        position: absolute;
+                    }
+
+                        /* This is the INTRODUCTION image.*/
+                        .intro-text {
+                            width: 308px;
+                            display: block;
+                            text-align: center;
+                        }
+}
+
+@media only screen and (min-width: 768px) {
+
+    @font-face { 
+        font-family: Helios; 
+        src: url('fonts/Helios.ttf'); 
+    } 
+
+    header {
+        height: 462px;
+        background-image:url('images/header-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        display: block;
+        position: sticky;
+    }
+
+        .nav-bg {
+            height: 277px;
+            top: 89px; 
+            position: relative;
+            background-color: white;
+            opacity: 0.9;
+            z-index: 1;
+        }
+
+        .main-header {
+            display: block;
+        }
+
+            .header-elements {
+                display: block;
+                position: relative;
+                z-index: 2;
+                top: -115px;
+            }
+
+            .logo-element {
+                display: inline-block;
+            }
+
+                .logo {
+                    width: 308px;
+                    margin-left: 77px;
+                    display: inline-block;
+                }
+
+            .nav-buttons {
+                display: inline-block;
+                top: 60px;
+                position: absolute;
+                margin-left: 0px;
+
+            }
+
+            .home-button, .download-button {
+                color: white;
+                margin: 5px;
+                font-family: Helios;
+                font-size: 15px;
+                background-color: black;
+                padding-right: 11px;
+                padding-left: 11px;
+                padding-bottom: 5px;
+                padding-top: 5px;
+                border-radius: 5px 5px;
+                font-weight: bold;
+            }
+
+            .about-us-button {
+                color: white;
+                font-family: Helios;
+                font-size: 15px;
+                margin: 5px;
+                background-color: black;
+                padding-right: 11px;
+                padding-left: 11px;
+                padding-bottom: 5px;
+                padding-top: 5px;
+                border-radius: 5px 5px;
+                font-weight: bold;
+            }
+        
+                .about {
+                    display: inline-block;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+                .us {
+                    display: inline-block;
+                    color: #ff914d;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+    body {
+        margin: 0px;
+    }
+
+        .body1 {
+            display: block;
+        }
+
+            .intro-bg {
+                z-index: 1;
+                position: relative;
+            }
+
+            .introduction-section {
+                display: block;
+            }
+
+                .intro-elements {
+                    display: block;
+                    position: relative;
+                    top: -510px;
+                    z-index: 2;
+                }
+                    /* This is the DIV for INTRODUCTION image.*/
+                    .intro-text-image {
+                        margin-left: 192px;
+                        text-align: center;
+                        display: block;
+                        position: absolute;
+                    }
+
+                        /* This is the INTRODUCTION image.*/
+                        .intro-text {
+                            width: 400px;
+                            display: block;
+                            text-align: center;
+                        }
+}
+
+@media only screen and (min-width: 992px) {
+
+    @font-face { 
+        font-family: Helios; 
+        src: url('fonts/Helios.ttf'); 
+    } 
+
+    header {
+        height: 600px;
+        background-image:url('images/header-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        display: block;
+        position: sticky;
+    }
+
+        .nav-bg {
+            height: 360px;
+            top: 115px; 
+            position: relative;
+            background-color: white;
+            opacity: 0.9;
+            z-index: 1;
+        }
+
+        .main-header {
+            display: block;
+        }
+
+            .header-elements {
+                display: block;
+                position: relative;
+                z-index: 2;
+                top: -150px;
+            }
+
+            .logo-element {
+                display: inline-block;
+            }
+
+                .logo {
+                    width: 400px;
+                    margin-left: 100px;
+                    display: inline-block;
+                }
+
+            .nav-buttons {
+                display: inline-block;
+                top: 60px;
+                position: absolute;
+                margin-left: 0px;
+
+            }
+
+            .home-button, .download-button {
+                color: white;
+                margin: 7px;
+                font-family: Helios;
+                font-size: 20px;
+                background-color: black;
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-bottom: 7px;
+                padding-top: 7px;
+                border-radius: 7px 7px;
+                font-weight: bold;
+            }
+
+            .about-us-button {
+                color: white;
+                font-family: Helios;
+                font-size: 20px;
+                margin: 7px;
+                background-color: black;
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-bottom: 7px;
+                padding-top: 7px;
+                border-radius: 7px 7px;
+                font-weight: bold;
+            }
+        
+                .about {
+                    display: inline-block;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+                .us {
+                    display: inline-block;
+                    color: #ff914d;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+    body {
+        margin: 0px;
+    }
+
+        .body1 {
+            display: block;
+        }
+
+            .intro-bg {
+                z-index: 1;
+                position: relative;
+            }
+
+            .introduction-section {
+                display: block;
+            }
+
+                .intro-elements {
+                    display: block;
+                    position: relative;
+                    top: -628px;
+                }
+
+                    /* This is the DIV for INTRODUCTION image.*/
+                    .intro-text-image {
+                        text-align: center;
+                        display: block;
+                        position: absolute;
+                    }
+
+                        /* This is the INTRODUCTION image.*/
+                        .intro-text {
+                            width: 520px;
+                            display: block;
+                            text-align: center;
+                        }
+}
