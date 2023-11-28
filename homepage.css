@@ -100,27 +100,28 @@
         margin: 0px;
     }
 
-        .body1 {
+        .section {
             display: block;
+            margin-bottom: -5px;
         }
 
-            .intro-bg {
+            .section-bg {
                 z-index: 1;
                 position: relative;
             }
 
-            .introduction-section {
+            .heading-section {
                 display: block;
             }
 
-                .intro-elements {
+                .section-elements {
                     display: block;
                     position: relative;
                     top: -510px;
                     z-index: 2;
                 }
                     /* This is the DIV for INTRODUCTION image.*/
-                    .intro-text-image {
+                    .section-text-image {
                         margin-left: 192px;
                         text-align: center;
                         display: block;
@@ -128,7 +129,7 @@
                     }
 
                         /* This is the INTRODUCTION image.*/
-                        .intro-text {
+                        .section-text {
                             width: 308px;
                             display: block;
                             text-align: center;
@@ -235,27 +236,28 @@
         margin: 0px;
     }
 
-        .body1 {
+        .section {
             display: block;
+            margin-bottom: -5px;
         }
 
-            .intro-bg {
+            .section-bg {
                 z-index: 1;
                 position: relative;
             }
 
-            .introduction-section {
+            .heading-section {
                 display: block;
             }
 
-                .intro-elements {
+                .section-elements {
                     display: block;
                     position: relative;
                     top: -510px;
                     z-index: 2;
                 }
                     /* This is the DIV for INTRODUCTION image.*/
-                    .intro-text-image {
+                    .section-text-image {
                         margin-left: 192px;
                         text-align: center;
                         display: block;
@@ -263,7 +265,7 @@
                     }
 
                         /* This is the INTRODUCTION image.*/
-                        .intro-text {
+                        .section-text {
                             width: 400px;
                             display: block;
                             text-align: center;
@@ -370,34 +372,36 @@
         margin: 0px;
     }
 
-        .body1 {
+        .section {
             display: block;
+            margin-bottom: -5px;
         }
 
             .intro-bg {
                 z-index: 1;
                 position: relative;
+                margin-bottom: -5px;
             }
 
-            .introduction-section {
+            .heading-section {
                 display: block;
             }
 
-                .intro-elements {
+                .section-elements {
                     display: block;
                     position: relative;
                     top: -628px;
                 }
 
                     /* This is the DIV for INTRODUCTION image.*/
-                    .intro-text-image {
+                    .section-text-image {
                         text-align: center;
                         display: block;
                         position: absolute;
                     }
 
                         /* This is the INTRODUCTION image.*/
-                        .intro-text {
+                        .section-text {
                             width: 520px;
                             display: block;
                             text-align: center;
@@ -406,6 +410,11 @@
 
     
                         /* this is for the 4th page */
+
+                    .body-content {
+                        display: block;
+                        margin: 0px;
+                    }
     
                         .pick {
                             background-image: url(images/bg3.png);
@@ -439,4 +448,33 @@
                             margin-left: 65%;
                             text-align: left;
                         }
+                        .content-bg {
+                            margin: 0;
+                            
+                        }
+                        .content {
+                          position: relative;
+                          top: -680px;
+                          
+                        }
+                        .section-title {
+                            display: block;
+                            top: -850px;
+                        }
+                        .own-plan {
+                            position: relative;
+                            top: -850px;
+                        }
+                        .pc2 {
+                            top: -411px;
+                        }
+                        .pc3 {
+                            top: -416px;
+                        }
+                        .GIF {
+                            position: relative;
+                            top: -1100px;
+                            right: -60%;
+                        }
+        
 }
