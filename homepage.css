@@ -1,25 +1,22 @@
-@media only screen and (max-width: 600px) {
-    
-}
-
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 300px) {
     @font-face { 
         font-family: Helios; 
         src: url('fonts/Helios.ttf'); 
     } 
 
     header {
-        height: 355px;
+        height: 119px;
         background-image:url('images/header-bg.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top;
         display: block;
+        position: sticky;
     }
 
         .nav-bg {
-            height: 213px;
-            top: 68px; 
+            height: 72px;
+            top: 25px; 
             position: relative;
             background-color: white;
             opacity: 0.9;
@@ -34,7 +31,7 @@
                 display: block;
                 position: relative;
                 z-index: 2;
-                top: -88px;
+                top: -40px;
             }
 
             .logo-element {
@@ -42,44 +39,45 @@
             }
 
                 .logo {
-                    width: 237px;
-                    margin-left: 59px;
+                    width: 118px;
+                    margin-left: 19px;
                     display: inline-block;
+                    margin-right: -48px;
                 }
 
             .nav-buttons {
                 display: inline-block;
                 top: 20px;
                 position: absolute;
-                margin-left: 0px;
+                margin-left: 50px;
 
             }
 
             .home-button, .download-button {
                 color: white;
-                margin: 5px;
+                margin: 3px;
                 font-family: Helios;
-                font-size: 15px;
+                font-size: 4px;
                 background-color: black;
-                padding-right: 8px;
-                padding-left: 8px;
-                padding-bottom: 4px;
-                padding-top: 4px;
-                border-radius: 4px 4px;
+                padding-right: 3px;
+                padding-left: 3px;
+                padding-bottom: 1px;
+                padding-top: 1px;
+                border-radius: 1px 1px;
                 font-weight: bold;
             }
 
             .about-us-button {
                 color: white;
                 font-family: Helios;
-                font-size: 15px;
-                margin: 4px;
+                font-size: 4px;
+                margin: 1px;
                 background-color: black;
-                padding-right: 8px;
-                padding-left: 8px;
-                padding-bottom: 4px;
-                padding-top: 4px;
-                border-radius: 4px 4px;
+                padding-right: 3px;
+                padding-left: 3px;
+                padding-bottom: 1px;
+                padding-top: 1px;
+                border-radius: 1px 1px;
                 font-weight: bold;
             }
         
@@ -98,53 +96,219 @@
 
     body {
         margin: 0px;
+        display: block;
     }
-
-        .section {
+            
+        body-part-intro {
             display: block;
+            width: 100%;
+            text-align: center;
             margin-bottom: -5px;
         }
-
-            .section-bg {
-                z-index: 1;
+            
+            .body-part-intro-bg {
+                width: 100%;
                 position: relative;
+                z-index: -1;
+            }
+            
+        body-part {
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-bottom: -5px;
+        }
+            
+            .body-part-bg {
+                width: 100%;
+                position: relative;
+                z-index: -1;
+            }
+            
+            contents {
+                position: absolute;
+                vertical-align: center;
+                text-align: center;
+            }
+            
+                end-contents {
+                    position: absolute;
+                    vertical-align: center;
+                    text-align: center;
+                }
+            
+            
+            .heading {
+                margin-top: 6%;
+                width: 25%;
+            }
+            
+            .other-heading {
+                margin-top: 6%;
+                width: 46%;
             }
 
-            .heading-section {
-                display: block;
-            }
-
-                .section-elements {
-                    display: block;
+                .description {
+                    font-family: Helios;
+                    font-size: 40%;
+                    margin-top: 6%;
+                    margin-bottom: 6%;
+                    margin-left: 15%;
+                    margin-right: 15%;
+                }
+            
+                .end-description {
+                    font-family: Helios;
+                    margin: auto;
+                    font-size: 40%;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    margin-left: 17%;
+                    margin-right: 17%;
                     position: relative;
-                    top: -510px;
                     z-index: 2;
                 }
-                    /* This is the DIV for INTRODUCTION image.*/
-                    .section-text-image {
-                        margin-left: 192px;
-                        text-align: center;
-                        display: block;
-                        position: absolute;
+            
+                .body-part-design {
+                    position: absolute;
+                    z-index: 1;
+                    width: 33%;
+                }
+            
+                .sub-content {
+                    display: block;
+                    margin-top: 4%;
+                }
+            
+                    .pc {
+                        max-width: 6%;
+                        display: inline-block;
+                        margin-left: 8%;
+                    }
+            
+                    .body-part-description {
+                        display: inline-block;
+                        width: 33%;
+                        font-family: Helios;
+                        font-size: 40%;
+                        margin-top: 5%;
+                        margin-bottom: 5%;
+                        margin-left: 5%;
+                        margin-right: 10%;
                     }
 
-                        /* This is the INTRODUCTION image.*/
-                        .section-text {
-                            width: 308px;
-                            display: block;
-                            text-align: center;
-                        }
+
+
+            /*SLIDESHOW*/
+            /* Slideshow container */
+            .slideshow-container {
+                max-width: 19%;
+                position: relative;
+                margin: auto;
+            }
+            
+                /* Hide the images by default */
+                .mySlides {
+                    display: none;
+                }
+                
+                /* Next & previous buttons */
+                .prev, .next {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    width: auto;
+                    margin-top: -22px;
+                    padding: 16px;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 18px;
+                    transition: 0.6s ease;
+                    border-radius: 0 3px 3px 0;
+                    user-select: none;
+                }
+                
+                /* Position the "next button" to the right */
+                .next {
+                    right: 0;
+                    border-radius: 3px 0 0 3px;
+                }
+                
+                /* On hover, add a black background color with a little bit see-through */
+                .prev:hover, .next:hover {
+                    background-color: rgba(0,0,0,0.8);
+                }
+                
+                /* Caption text */
+                .text {
+                    color: #f2f2f2;
+                    font-size: 15px;
+                    padding: 8px 12px;
+                    position: absolute;
+                    bottom: 8px;
+                    width: 100%;
+                    text-align: center;
+                }
+                
+                /* Number text (1/3 etc) */
+                .numbertext {
+                    color: #f2f2f2;
+                    font-size: 12px;
+                    padding: 8px 12px;
+                    position: absolute;
+                    top: 0;
+                }
+                
+                /* The dots/bullets/indicators */
+                .dot {
+                    cursor: pointer;
+                    height: 15px;
+                    width: 15px;
+                    margin: 0 2px;
+                    background-color: #bbb;
+                    border-radius: 50%;
+                    display: inline-block;
+                    transition: background-color 0.6s ease;
+                }
+                
+                .active, .dot:hover {
+                    background-color: #717171;
+                }
+                
+                /* Fading animation */
+                .fade {
+                    animation-name: fade;
+                    animation-duration: 1.5s;
+                }
+                
+                @keyframes fade {
+                    from {opacity: .4}
+                    to {opacity: 1}
+                }
+
+        .the-group {
+            font-family: Helios; 
+            font-size: 54%;
+            color: red;
+            font-weight: bold;
+        }
+
+        .anytime-anywhere {
+            font-family:helios; 
+            font-size: 54%; 
+            color: red; 
+            font-weight: bold
+        }
 }
 
-@media only screen and (min-width: 768px) {
-
+@media only screen and (min-width: 300px) {
     @font-face { 
         font-family: Helios; 
         src: url('fonts/Helios.ttf'); 
     } 
 
     header {
-        height: 462px;
+        height: 119px;
         background-image:url('images/header-bg.jpg');
         background-repeat: no-repeat;
         background-size: cover;
@@ -154,8 +318,8 @@
     }
 
         .nav-bg {
-            height: 277px;
-            top: 89px; 
+            height: 72px;
+            top: 25px; 
             position: relative;
             background-color: white;
             opacity: 0.9;
@@ -170,7 +334,7 @@
                 display: block;
                 position: relative;
                 z-index: 2;
-                top: -115px;
+                top: -40px;
             }
 
             .logo-element {
@@ -178,9 +342,921 @@
             }
 
                 .logo {
-                    width: 308px;
-                    margin-left: 77px;
+                    width: 118px;
+                    margin-left: 19px;
                     display: inline-block;
+                    margin-right: -48px;
+                }
+
+            .nav-buttons {
+                display: inline-block;
+                top: 20px;
+                position: absolute;
+                margin-left: 50px;
+
+            }
+
+            .home-button, .download-button {
+                color: white;
+                margin: 3px;
+                font-family: Helios;
+                font-size: 4px;
+                background-color: black;
+                padding-right: 3px;
+                padding-left: 3px;
+                padding-bottom: 1px;
+                padding-top: 1px;
+                border-radius: 1px 1px;
+                font-weight: bold;
+            }
+
+            .about-us-button {
+                color: white;
+                font-family: Helios;
+                font-size: 4px;
+                margin: 1px;
+                background-color: black;
+                padding-right: 3px;
+                padding-left: 3px;
+                padding-bottom: 1px;
+                padding-top: 1px;
+                border-radius: 1px 1px;
+                font-weight: bold;
+            }
+        
+                .about {
+                    display: inline-block;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+                .us {
+                    display: inline-block;
+                    color: #ff914d;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+    body {
+        margin: 0px;
+        display: block;
+    }
+            
+        body-part-intro {
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-bottom: -5px;
+        }
+            
+            .body-part-intro-bg {
+                width: 100%;
+                position: relative;
+                z-index: -1;
+            }
+            
+        body-part {
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-bottom: -5px;
+        }
+            
+            .body-part-bg {
+                width: 100%;
+                position: relative;
+                z-index: -1;
+            }
+            
+            contents {
+                position: absolute;
+                vertical-align: center;
+                text-align: center;
+            }
+            
+                end-contents {
+                    position: absolute;
+                    vertical-align: center;
+                    text-align: center;
+                }
+            
+            
+            .heading {
+                margin-top: 6%;
+                width: 25%;
+            }
+            
+            .other-heading {
+                margin-top: 6%;
+                width: 46%;
+            }
+
+                .description {
+                    font-family: Helios;
+                    font-size: 40%;
+                    margin-top: 6%;
+                    margin-bottom: 6%;
+                    margin-left: 15%;
+                    margin-right: 15%;
+                }
+            
+                .end-description {
+                    font-family: Helios;
+                    margin: auto;
+                    font-size: 40%;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    margin-left: 17%;
+                    margin-right: 17%;
+                    position: relative;
+                    z-index: 2;
+                }
+            
+                .body-part-design {
+                    position: absolute;
+                    z-index: 1;
+                    width: 33%;
+                }
+            
+                .sub-content {
+                    display: block;
+                    margin-top: 4%;
+                }
+            
+                    .pc {
+                        max-width: 6%;
+                        display: inline-block;
+                        margin-left: 8%;
+                    }
+            
+                    .body-part-description {
+                        display: inline-block;
+                        width: 33%;
+                        font-family: Helios;
+                        font-size: 40%;
+                        margin-top: 5%;
+                        margin-bottom: 5%;
+                        margin-left: 5%;
+                        margin-right: 10%;
+                    }
+
+
+
+            /*SLIDESHOW*/
+            /* Slideshow container */
+            .slideshow-container {
+                max-width: 19%;
+                position: relative;
+                margin: auto;
+            }
+            
+                /* Hide the images by default */
+                .mySlides {
+                    display: none;
+                }
+                
+                /* Next & previous buttons */
+                .prev, .next {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    width: auto;
+                    margin-top: -22px;
+                    padding: 16px;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 18px;
+                    transition: 0.6s ease;
+                    border-radius: 0 3px 3px 0;
+                    user-select: none;
+                }
+                
+                /* Position the "next button" to the right */
+                .next {
+                    right: 0;
+                    border-radius: 3px 0 0 3px;
+                }
+                
+                /* On hover, add a black background color with a little bit see-through */
+                .prev:hover, .next:hover {
+                    background-color: rgba(0,0,0,0.8);
+                }
+                
+                /* Caption text */
+                .text {
+                    color: #f2f2f2;
+                    font-size: 15px;
+                    padding: 8px 12px;
+                    position: absolute;
+                    bottom: 8px;
+                    width: 100%;
+                    text-align: center;
+                }
+                
+                /* Number text (1/3 etc) */
+                .numbertext {
+                    color: #f2f2f2;
+                    font-size: 12px;
+                    padding: 8px 12px;
+                    position: absolute;
+                    top: 0;
+                }
+                
+                /* The dots/bullets/indicators */
+                .dot {
+                    cursor: pointer;
+                    height: 15px;
+                    width: 15px;
+                    margin: 0 2px;
+                    background-color: #bbb;
+                    border-radius: 50%;
+                    display: inline-block;
+                    transition: background-color 0.6s ease;
+                }
+                
+                .active, .dot:hover {
+                    background-color: #717171;
+                }
+                
+                /* Fading animation */
+                .fade {
+                    animation-name: fade;
+                    animation-duration: 1.5s;
+                }
+                
+                @keyframes fade {
+                    from {opacity: .4}
+                    to {opacity: 1}
+                }
+
+        .the-group {
+            font-family: Helios; 
+            font-size: 54%;
+            color: red;
+            font-weight: bold;
+        }
+
+        .anytime-anywhere {
+            font-family:helios; 
+            font-size: 54%; 
+            color: red; 
+            font-weight: bold
+        }
+}
+
+@media only screen and (min-width: 500px) {
+    @font-face { 
+        font-family: Helios; 
+        src: url('fonts/Helios.ttf'); 
+    } 
+
+    header {
+        height: 239px;
+        background-image:url('images/header-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        display: block;
+        position: sticky;
+    }
+
+        .nav-bg {
+            height: 144px;
+            top: 60px; 
+            position: relative;
+            background-color: white;
+            opacity: 0.9;
+            z-index: 1;
+        }
+
+        .main-header {
+            display: block;
+        }
+
+            .header-elements {
+                display: block;
+                position: relative;
+                z-index: 2;
+                top: -70px;
+            }
+
+            .logo-element {
+                display: inline-block;
+            }
+
+                .logo {
+                    width: 236px;
+                    margin-left: 37px;
+                    display: inline-block;
+                    margin-right: -48px;
+                }
+
+            .nav-buttons {
+                display: inline-block;
+                top: 40px;
+                position: absolute;
+                margin-left: 0px;
+
+            }
+
+            .home-button, .download-button {
+                color: white;
+                margin: 3px;
+                font-family: Helios;
+                font-size: 9px;
+                background-color: black;
+                padding-right: 7px;
+                padding-left: 7px;
+                padding-bottom: 2px;
+                padding-top: 2px;
+                border-radius: 2px 2px;
+                font-weight: bold;
+            }
+
+            .about-us-button {
+                color: white;
+                font-family: Helios;
+                font-size: 9px;
+                margin: 2px;
+                background-color: black;
+                padding-right: 7px;
+                padding-left: 7px;
+                padding-bottom: 2px;
+                padding-top: 2px;
+                border-radius: 2px 2px;
+                font-weight: bold;
+            }
+        
+                .about {
+                    display: inline-block;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+                .us {
+                    display: inline-block;
+                    color: #ff914d;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+    body {
+        margin: 0px;
+        display: block;
+    }
+            
+        body-part-intro {
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-bottom: -5px;
+        }
+            
+            .body-part-intro-bg {
+                width: 100%;
+                position: relative;
+                z-index: -1;
+            }
+            
+        body-part {
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-bottom: -5px;
+        }
+            
+            .body-part-bg {
+                width: 100%;
+                position: relative;
+                z-index: -1;
+            }
+            
+            contents {
+                position: absolute;
+                vertical-align: center;
+                text-align: center;
+            }
+            
+                end-contents {
+                    position: absolute;
+                    vertical-align: center;
+                    text-align: center;
+                }
+            
+            
+            .heading {
+                margin-top: 6%;
+                width: 25%;
+            }
+            
+            .other-heading {
+                margin-top: 6%;
+                width: 46%;
+            }
+
+                .description {
+                    font-family: Helios;
+                    font-size: 79%;
+                    margin-top: 6%;
+                    margin-bottom: 6%;
+                    margin-left: 15%;
+                    margin-right: 15%;
+                }
+            
+                .end-description {
+                    font-family: Helios;
+                    margin: auto;
+                    font-size: 79%;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    margin-left: 17%;
+                    margin-right: 17%;
+                    position: relative;
+                    z-index: 2;
+                }
+            
+                .body-part-design {
+                    position: absolute;
+                    z-index: 1;
+                    width: 33%;
+                }
+            
+                .sub-content {
+                    display: block;
+                    margin-top: 4%;
+                }
+            
+                    .pc {
+                        max-width: 13%;
+                        display: inline-block;
+                        margin-left: 8%;
+                    }
+            
+                    .body-part-description {
+                        display: inline-block;
+                        width: 33%;
+                        font-family: Helios;
+                        font-size: 79%;
+                        margin-top: 5%;
+                        margin-bottom: 5%;
+                        margin-left: 5%;
+                        margin-right: 10%;
+                    }
+
+
+
+            /*SLIDESHOW*/
+            /* Slideshow container */
+            .slideshow-container {
+                max-width: 19%;
+                position: relative;
+                margin: auto;
+            }
+            
+                /* Hide the images by default */
+                .mySlides {
+                    display: none;
+                }
+                
+                /* Next & previous buttons */
+                .prev, .next {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    width: auto;
+                    margin-top: -22px;
+                    padding: 16px;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 18px;
+                    transition: 0.6s ease;
+                    border-radius: 0 3px 3px 0;
+                    user-select: none;
+                }
+                
+                /* Position the "next button" to the right */
+                .next {
+                    right: 0;
+                    border-radius: 3px 0 0 3px;
+                }
+                
+                /* On hover, add a black background color with a little bit see-through */
+                .prev:hover, .next:hover {
+                    background-color: rgba(0,0,0,0.8);
+                }
+                
+                /* Caption text */
+                .text {
+                    color: #f2f2f2;
+                    font-size: 15px;
+                    padding: 8px 12px;
+                    position: absolute;
+                    bottom: 8px;
+                    width: 100%;
+                    text-align: center;
+                }
+                
+                /* Number text (1/3 etc) */
+                .numbertext {
+                    color: #f2f2f2;
+                    font-size: 12px;
+                    padding: 8px 12px;
+                    position: absolute;
+                    top: 0;
+                }
+                
+                /* The dots/bullets/indicators */
+                .dot {
+                    cursor: pointer;
+                    height: 15px;
+                    width: 15px;
+                    margin: 0 2px;
+                    background-color: #bbb;
+                    border-radius: 50%;
+                    display: inline-block;
+                    transition: background-color 0.6s ease;
+                }
+                
+                .active, .dot:hover {
+                    background-color: #717171;
+                }
+                
+                /* Fading animation */
+                .fade {
+                    animation-name: fade;
+                    animation-duration: 1.5s;
+                }
+                
+                @keyframes fade {
+                    from {opacity: .4}
+                    to {opacity: 1}
+                }
+
+        .the-group {
+            font-family: Helios; 
+            font-size: 108%;
+            color: red;
+            font-weight: bold;
+        }
+
+        .anytime-anywhere {
+            font-family:helios; 
+            font-size: 108%; 
+            color: red; 
+            font-weight: bold
+        }
+}
+
+@media only screen and (min-width: 600px) {
+    
+    @font-face { 
+        font-family: Helios; 
+        src: url('fonts/Helios.ttf'); 
+    } 
+
+    header {
+        height: 303px;
+        background-image:url('images/header-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        display: block;
+        position: sticky;
+    }
+
+        .nav-bg {
+            height: 182px;
+            top: 60px; 
+            position: relative;
+            background-color: white;
+            opacity: 0.9;
+            z-index: 1;
+        }
+
+        .main-header {
+            display: block;
+        }
+
+            .header-elements {
+                display: block;
+                position: relative;
+                z-index: 2;
+                top: -100px;
+            }
+
+            .logo-element {
+                display: inline-block;
+            }
+
+                .logo {
+                    width: 299px;
+                    margin-left: 47px;
+                    display: inline-block;
+                    margin-right: -48px;
+                }
+
+            .nav-buttons {
+                display: inline-block;
+                top: 60px;
+                position: absolute;
+                margin-left: 0px;
+
+            }
+
+            .home-button, .download-button {
+                color: white;
+                margin: 4px;
+                font-family: Helios;
+                font-size: 12px;
+                background-color: black;
+                padding-right: 8px;
+                padding-left: 8px;
+                padding-bottom: 3px;
+                padding-top: 3px;
+                border-radius: 3px 3px;
+                font-weight: bold;
+            }
+
+            .about-us-button {
+                color: white;
+                font-family: Helios;
+                font-size: 12px;
+                margin: 3px;
+                background-color: black;
+                padding-right: 8px;
+                padding-left: 8px;
+                padding-bottom: 3px;
+                padding-top: 3px;
+                border-radius: 3px 3px;
+                font-weight: bold;
+            }
+        
+                .about {
+                    display: inline-block;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+                .us {
+                    display: inline-block;
+                    color: #ff914d;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+    body {
+        margin: 0px;
+        display: block;
+    }
+            
+        body-part-intro {
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-bottom: -5px;
+        }
+            
+            .body-part-intro-bg {
+                width: 100%;
+                position: relative;
+                z-index: -1;
+            }
+            
+        body-part {
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-bottom: -5px;
+        }
+            
+            .body-part-bg {
+                width: 100%;
+                position: relative;
+                z-index: -1;
+            }
+            
+            contents {
+                position: absolute;
+                vertical-align: center;
+                text-align: center;
+            }
+            
+                end-contents {
+                    position: absolute;
+                    vertical-align: center;
+                    text-align: center;
+                }
+            
+            
+            .heading {
+                margin-top: 6%;
+                width: 25%;
+            }
+            
+            .other-heading {
+                margin-top: 6%;
+                width: 46%;
+            }
+
+                .description {
+                    font-family: Helios;
+                    font-size: 101%;
+                    margin-top: 6%;
+                    margin-bottom: 6%;
+                    margin-left: 15%;
+                    margin-right: 15%;
+                }
+            
+                .end-description {
+                    font-family: Helios;
+                    margin: auto;
+                    font-size: 101%;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    margin-left: 17%;
+                    margin-right: 17%;
+                    position: relative;
+                    z-index: 2;
+                }
+            
+                .body-part-design {
+                    position: absolute;
+                    z-index: 1;
+                    width: 33%;
+                }
+            
+                .sub-content {
+                    display: block;
+                    margin-top: 4%;
+                }
+            
+                    .pc {
+                        max-width: 17%;
+                        display: inline-block;
+                        margin-left: 8%;
+                    }
+            
+                    .body-part-description {
+                        display: inline-block;
+                        width: 33%;
+                        font-family: Helios;
+                        font-size: 101%;
+                        margin-top: 5%;
+                        margin-bottom: 5%;
+                        margin-left: 5%;
+                        margin-right: 10%;
+                    }
+
+
+
+            /*SLIDESHOW*/
+            /* Slideshow container */
+            .slideshow-container {
+                max-width: 19%;
+                position: relative;
+                margin: auto;
+            }
+            
+                /* Hide the images by default */
+                .mySlides {
+                    display: none;
+                }
+                
+                /* Next & previous buttons */
+                .prev, .next {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    width: auto;
+                    margin-top: -22px;
+                    padding: 16px;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 18px;
+                    transition: 0.6s ease;
+                    border-radius: 0 3px 3px 0;
+                    user-select: none;
+                }
+                
+                /* Position the "next button" to the right */
+                .next {
+                    right: 0;
+                    border-radius: 3px 0 0 3px;
+                }
+                
+                /* On hover, add a black background color with a little bit see-through */
+                .prev:hover, .next:hover {
+                    background-color: rgba(0,0,0,0.8);
+                }
+                
+                /* Caption text */
+                .text {
+                    color: #f2f2f2;
+                    font-size: 15px;
+                    padding: 8px 12px;
+                    position: absolute;
+                    bottom: 8px;
+                    width: 100%;
+                    text-align: center;
+                }
+                
+                /* Number text (1/3 etc) */
+                .numbertext {
+                    color: #f2f2f2;
+                    font-size: 12px;
+                    padding: 8px 12px;
+                    position: absolute;
+                    top: 0;
+                }
+                
+                /* The dots/bullets/indicators */
+                .dot {
+                    cursor: pointer;
+                    height: 15px;
+                    width: 15px;
+                    margin: 0 2px;
+                    background-color: #bbb;
+                    border-radius: 50%;
+                    display: inline-block;
+                    transition: background-color 0.6s ease;
+                }
+                
+                .active, .dot:hover {
+                    background-color: #717171;
+                }
+                
+                /* Fading animation */
+                .fade {
+                    animation-name: fade;
+                    animation-duration: 1.5s;
+                }
+                
+                @keyframes fade {
+                    from {opacity: .4}
+                    to {opacity: 1}
+                }
+
+        .the-group {
+            font-family: Helios; 
+            font-size: 137%;
+            color: red;
+            font-weight: bold;
+        }
+
+        .anytime-anywhere {
+            font-family:helios; 
+            font-size: 137%; 
+            color: red; 
+            font-weight: bold
+        }
+}
+
+@media only screen and (min-width: 768px) {
+
+    @font-face { 
+        font-family: Helios; 
+        src: url('fonts/Helios.ttf'); 
+    } 
+
+    header {
+        height: 383px;
+        background-image:url('images/header-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        display: block;
+        position: sticky;
+    }
+
+        .nav-bg {
+            height: 230px;
+            top: 90px; 
+            position: relative;
+            background-color: white;
+            opacity: 0.9;
+            z-index: 1;
+        }
+
+        .main-header {
+            display: block;
+        }
+
+            .header-elements {
+                display: block;
+                position: relative;
+                z-index: 2;
+                top: -120px;
+            }
+
+            .logo-element {
+                display: inline-block;
+            }
+
+                .logo {
+                    width: 379px;
+                    margin-left: 59px;
+                    display: inline-block;
+                    margin-right: -40px;
                 }
 
             .nav-buttons {
@@ -197,11 +1273,11 @@
                 font-family: Helios;
                 font-size: 15px;
                 background-color: black;
-                padding-right: 11px;
-                padding-left: 11px;
-                padding-bottom: 5px;
-                padding-top: 5px;
-                border-radius: 5px 5px;
+                padding-right: 9px;
+                padding-left: 9px;
+                padding-bottom: 4px;
+                padding-top: 4px;
+                border-radius: 4px 4px;
                 font-weight: bold;
             }
 
@@ -209,13 +1285,13 @@
                 color: white;
                 font-family: Helios;
                 font-size: 15px;
-                margin: 5px;
+                margin: 4px;
                 background-color: black;
-                padding-right: 11px;
-                padding-left: 11px;
-                padding-bottom: 5px;
-                padding-top: 5px;
-                border-radius: 5px 5px;
+                padding-right: 9px;
+                padding-left: 9px;
+                padding-bottom: 4px;
+                padding-top: 4px;
+                border-radius: 4px 4px;
                 font-weight: bold;
             }
         
@@ -234,46 +1310,514 @@
 
     body {
         margin: 0px;
+        display: block;
     }
-
-        .section {
+            
+        body-part-intro {
             display: block;
+            width: 100%;
+            text-align: center;
             margin-bottom: -5px;
         }
-
-            .section-bg {
-                z-index: 1;
+            
+            .body-part-intro-bg {
+                width: 100%;
                 position: relative;
+                z-index: -1;
+            }
+            
+        body-part {
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-bottom: -5px;
+        }
+            
+            .body-part-bg {
+                width: 100%;
+                position: relative;
+                z-index: -1;
+            }
+            
+            contents {
+                position: absolute;
+                vertical-align: center;
+                text-align: center;
+            }
+            
+                end-contents {
+                    position: absolute;
+                    vertical-align: center;
+                    text-align: center;
+                }
+            
+            
+            .heading {
+                margin-top: 6%;
+                width: 25%;
+            }
+            
+            .other-heading {
+                margin-top: 6%;
+                width: 46%;
             }
 
-            .heading-section {
-                display: block;
-            }
-
-                .section-elements {
-                    display: block;
+                .description {
+                    font-family: Helios;
+                    font-size: 128%;
+                    margin-top: 6%;
+                    margin-bottom: 6%;
+                    margin-left: 15%;
+                    margin-right: 15%;
+                }
+            
+                .end-description {
+                    font-family: Helios;
+                    margin: auto;
+                    font-size: 128%;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    margin-left: 17%;
+                    margin-right: 17%;
                     position: relative;
-                    top: -510px;
                     z-index: 2;
                 }
-                    /* This is the DIV for INTRODUCTION image.*/
-                    .section-text-image {
-                        margin-left: 192px;
-                        text-align: center;
-                        display: block;
-                        position: absolute;
+            
+                .body-part-design {
+                    position: absolute;
+                    z-index: 1;
+                    width: 33%;
+                }
+            
+                .sub-content {
+                    display: block;
+                    margin-top: 4%;
+                }
+            
+                    .pc {
+                        max-width: 17%;
+                        display: inline-block;
+                        margin-left: 8%;
+                    }
+            
+                    .body-part-description {
+                        display: inline-block;
+                        width: 33%;
+                        font-family: Helios;
+                        font-size: 128%;
+                        margin-top: 5%;
+                        margin-bottom: 5%;
+                        margin-left: 5%;
+                        margin-right: 10%;
                     }
 
-                        /* This is the INTRODUCTION image.*/
-                        .section-text {
-                            width: 400px;
-                            display: block;
-                            text-align: center;
-                        }
+
+
+            /*SLIDESHOW*/
+            /* Slideshow container */
+            .slideshow-container {
+                max-width: 19%;
+                position: relative;
+                margin: auto;
+            }
+            
+                /* Hide the images by default */
+                .mySlides {
+                    display: none;
+                }
+                
+                /* Next & previous buttons */
+                .prev, .next {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    width: auto;
+                    margin-top: -22px;
+                    padding: 16px;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 18px;
+                    transition: 0.6s ease;
+                    border-radius: 0 3px 3px 0;
+                    user-select: none;
+                }
+                
+                /* Position the "next button" to the right */
+                .next {
+                    right: 0;
+                    border-radius: 3px 0 0 3px;
+                }
+                
+                /* On hover, add a black background color with a little bit see-through */
+                .prev:hover, .next:hover {
+                    background-color: rgba(0,0,0,0.8);
+                }
+                
+                /* Caption text */
+                .text {
+                    color: #f2f2f2;
+                    font-size: 15px;
+                    padding: 8px 12px;
+                    position: absolute;
+                    bottom: 8px;
+                    width: 100%;
+                    text-align: center;
+                }
+                
+                /* Number text (1/3 etc) */
+                .numbertext {
+                    color: #f2f2f2;
+                    font-size: 12px;
+                    padding: 8px 12px;
+                    position: absolute;
+                    top: 0;
+                }
+                
+                /* The dots/bullets/indicators */
+                .dot {
+                    cursor: pointer;
+                    height: 15px;
+                    width: 15px;
+                    margin: 0 2px;
+                    background-color: #bbb;
+                    border-radius: 50%;
+                    display: inline-block;
+                    transition: background-color 0.6s ease;
+                }
+                
+                .active, .dot:hover {
+                    background-color: #717171;
+                }
+                
+                /* Fading animation */
+                .fade {
+                    animation-name: fade;
+                    animation-duration: 1.5s;
+                }
+                
+                @keyframes fade {
+                    from {opacity: .4}
+                    to {opacity: 1}
+                }
+
+        .the-group {
+            font-family: Helios; 
+            font-size: 174%;
+            color: red;
+            font-weight: bold;
+        }
+
+        .anytime-anywhere {
+            font-family:helios; 
+            font-size: 174%; 
+            color: red; 
+            font-weight: bold
+        }
 }
 
 @media only screen and (min-width: 992px) {
 
+    @font-face { 
+        font-family: Helios; 
+        src: url('fonts/Helios.ttf'); 
+    } 
+
+    header {
+        height: 498px;
+        background-image:url('images/header-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        display: block;
+        position: sticky;
+    }
+
+        .nav-bg {
+            height: 299px;
+            top: 90px; 
+            position: relative;
+            background-color: white;
+            opacity: 0.9;
+            z-index: 1;
+        }
+
+        .main-header {
+            display: block;
+        }
+
+            .header-elements {
+                display: block;
+                position: relative;
+                z-index: 2;
+                top: -150px;
+            }
+
+            .logo-element {
+                display: inline-block;
+            }
+
+                .logo {
+                    width: 379px;
+                    margin-left: 100px;
+                    display: inline-block;
+                }
+
+            .nav-buttons {
+                display: inline-block;
+                top: 60px;
+                position: absolute;
+                margin-left: 0px;
+
+            }
+
+            .home-button, .download-button {
+                color: white;
+                margin: 6px;
+                font-family: Helios;
+                font-size: 21px;
+                background-color: black;
+                padding-right: 14px;
+                padding-left: 14px;
+                padding-bottom: 6px;
+                padding-top: 6px;
+                border-radius: 6px 6px;
+                font-weight: bold;
+            }
+
+            .about-us-button {
+                color: white;
+                font-family: Helios;
+                font-size: 21px;
+                margin: 6px;
+                background-color: black;
+                padding-right: 14px;
+                padding-left: 14px;
+                padding-bottom: 6px;
+                padding-top: 6px;
+                border-radius: 6px 6px;
+                font-weight: bold;
+            }
+        
+                .about {
+                    display: inline-block;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+                .us {
+                    display: inline-block;
+                    color: #ff914d;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+    body {
+        margin: 0px;
+        display: block;
+    }
+
+    body-part-intro {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+
+        .body-part-intro-bg {
+            width: 100%;
+            position: relative;
+            z-index: -1;
+        }
+
+    body-part {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+
+        .body-part-bg {
+            width: 100%;
+            position: relative;
+            z-index: -1;
+        }
+
+        contents {
+            position: absolute;
+            vertical-align: center;
+            text-align: center;
+        }
+
+        end-contents {
+            position: absolute;
+            vertical-align: center;
+            text-align: center;
+        }
+
+
+        .heading {
+            margin-top: 6%;
+            width: 25%;
+        }
+
+        .other-heading {
+            margin-top: 6%;
+            width: 46%;
+        }
+            .description {
+                font-family: Helios;
+                font-size: 166%;
+                margin-top: 6%;
+                margin-bottom: 6%;
+                margin-left: 15%;
+                margin-right: 15%;
+            }
+
+            .end-description {
+                font-family: Helios;
+                margin: auto;
+                font-size: 166%;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                margin-left: 17%;
+                margin-right: 17%;
+                position: relative;
+                z-index: 2;
+            }
+
+            .body-part-design {
+                position: absolute;
+                z-index: 1;
+                width: 33%;
+            }
+
+            .sub-content {
+                display: block;
+                margin-top: 4%;
+            }
+
+                .pc {
+                    max-width: 17%;
+                    display: inline-block;
+                    margin-left: 8%;
+                }
+
+                .body-part-description {
+                    display: inline-block;
+                    width: 33%;
+                    font-family: Helios;
+                    font-size: 166%;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    margin-left: 5%;
+                    margin-right: 10%;
+                }
+
+
+
+            /*SLIDESHOW*/
+            /* Slideshow container */
+            .slideshow-container {
+                max-width: 25%;
+                position: relative;
+                margin: auto;
+            }
+            
+                /* Hide the images by default */
+                .mySlides {
+                    display: none;
+                }
+                
+                /* Next & previous buttons */
+                .prev, .next {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    width: auto;
+                    margin-top: -22px;
+                    padding: 16px;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 18px;
+                    transition: 0.6s ease;
+                    border-radius: 0 3px 3px 0;
+                    user-select: none;
+                }
+                
+                /* Position the "next button" to the right */
+                .next {
+                    right: 0;
+                    border-radius: 3px 0 0 3px;
+                }
+                
+                /* On hover, add a black background color with a little bit see-through */
+                .prev:hover, .next:hover {
+                    background-color: rgba(0,0,0,0.8);
+                }
+                
+                /* Caption text */
+                .text {
+                    color: #f2f2f2;
+                    font-size: 15px;
+                    padding: 8px 12px;
+                    position: absolute;
+                    bottom: 8px;
+                    width: 100%;
+                    text-align: center;
+                }
+                
+                /* Number text (1/3 etc) */
+                .numbertext {
+                    color: #f2f2f2;
+                    font-size: 12px;
+                    padding: 8px 12px;
+                    position: absolute;
+                    top: 0;
+                }
+                
+                /* The dots/bullets/indicators */
+                .dot {
+                    cursor: pointer;
+                    height: 15px;
+                    width: 15px;
+                    margin: 0 2px;
+                    background-color: #bbb;
+                    border-radius: 50%;
+                    display: inline-block;
+                    transition: background-color 0.6s ease;
+                }
+                
+                .active, .dot:hover {
+                    background-color: #717171;
+                }
+                
+                /* Fading animation */
+                .fade {
+                    animation-name: fade;
+                    animation-duration: 1.5s;
+                }
+                
+                @keyframes fade {
+                    from {opacity: .4}
+                    to {opacity: 1}
+                }
+
+                .the-group {
+                    font-family: Helios; 
+                    font-size: 200%;
+                    color: red;
+                    font-weight: bold;
+                }
+        
+                .anytime-anywhere {
+                    font-family:helios; 
+                    font-size: 200%; 
+                    color: red; 
+                    font-weight: bold
+                }
+}
+
+@media only screen and (min-width: 1200px) {
     @font-face { 
         font-family: Helios; 
         src: url('fonts/Helios.ttf'); 
@@ -306,7 +1850,7 @@
                 display: block;
                 position: relative;
                 z-index: 2;
-                top: -150px;
+                top: -160px;
             }
 
             .logo-element {
@@ -314,7 +1858,7 @@
             }
 
                 .logo {
-                    width: 400px;
+                    width: 480px;
                     margin-left: 100px;
                     display: inline-block;
                 }
@@ -331,7 +1875,7 @@
                 color: white;
                 margin: 7px;
                 font-family: Helios;
-                font-size: 20px;
+                font-size: 25px;
                 background-color: black;
                 padding-right: 15px;
                 padding-left: 15px;
@@ -344,7 +1888,7 @@
             .about-us-button {
                 color: white;
                 font-family: Helios;
-                font-size: 20px;
+                font-size: 25px;
                 margin: 7px;
                 background-color: black;
                 padding-right: 15px;
@@ -370,111 +1914,206 @@
 
     body {
         margin: 0px;
+        display: block;
     }
 
-        .section {
-            display: block;
-            margin-bottom: -5px;
+    body-part-intro {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+
+        .body-part-intro-bg {
+            width: 100%;
+            position: relative;
+            z-index: -1;
         }
 
-            .intro-bg {
-                z-index: 1;
+    body-part {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+
+        .body-part-bg {
+            width: 100%;
+            position: relative;
+            z-index: -1;
+        }
+
+        contents {
+            position: absolute;
+            vertical-align: center;
+            text-align: center;
+        }
+
+        end-contents {
+            position: absolute;
+            vertical-align: center;
+            text-align: center;
+        }
+
+
+        .heading {
+            margin-top: 5%;
+            width: 30%;
+        }
+
+        .other-heading {
+            margin-top: 5%;
+            width: 55%;
+        }
+            .description {
+                font-family: Helios;
+                font-size: 200%;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                margin-left: 15%;
+                margin-right: 15%;
+            }
+
+            .end-description {
+                font-family: Helios;
+                margin: auto;
+                font-size: 200%;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                margin-left: 20%;
+                margin-right: 20%;
                 position: relative;
-                margin-bottom: -5px;
+                z-index: 2;
             }
 
-            .heading-section {
+            .body-part-design {
+                position: absolute;
+                z-index: 1;
+                width: 40%;
+            }
+
+            .sub-content {
                 display: block;
+                margin-top: 5%;
             }
 
-                .section-elements {
-                    display: block;
-                    position: relative;
-                    top: -628px;
+                .pc {
+                    max-width: 20%;
+                    display: inline-block;
+                    margin-left: 10%;
                 }
 
-                    /* This is the DIV for INTRODUCTION image.*/
-                    .section-text-image {
-                        text-align: center;
-                        display: block;
-                        position: absolute;
-                    }
-
-                        /* This is the INTRODUCTION image.*/
-                        .section-text {
-                            width: 520px;
-                            display: block;
-                            text-align: center;
-                        }
+                .body-part-description {
+                    display: inline-block;
+                    width: 40%;
+                    font-family: Helios;
+                    font-size: 200%;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    margin-left: 5%;
+                    margin-right: 10%;
+                }
 
 
-    
-                        /* this is for the 4th page */
 
-                    .body-content {
-                        display: block;
-                        margin: 0px;
-                    }
-    
-                        .pick {
-                            background-image: url(images/bg3.png);
-                            min-height: 120vh;
-                            width: 100%;
-                            background-position: center;
-                            background-size: cover;
-                            position: relative;
-                            overflow: hidden;
-                        }
-                        
-                        .pick .title {
-                            text-align: center;
-                            padding-left: 20px;
-                            padding-top: 100px; /* Adjust the top padding to move the image down */
-                        }
-                        
-                        .pick .title img.replacement-image {
-                            display: block;
-                            margin: 0 auto; /* Center the image */
-                            /* Add any additional styling you need for the image */
-                        }
-                        
-                        .pick .content {
-                            display: inline-block;
-                        }
-                        
-                        .pick .content p {
-                            font-size: 25.5px;
-                            margin-top: 20%;
-                            margin-left: 65%;
-                            text-align: left;
-                        }
-                        .content-bg {
-                            margin: 0;
-                            
-                        }
-                        .content {
-                          position: relative;
-                          top: -680px;
-                          
-                        }
-                        .section-title {
-                            display: block;
-                            top: -850px;
-                        }
-                        .own-plan {
-                            position: relative;
-                            top: -850px;
-                        }
-                        .pc2 {
-                            top: -411px;
-                        }
-                        .pc3 {
-                            top: -416px;
-                        }
-                        .GIF {
-                            position: relative;
-                            top: -1100px;
-                            right: -60%;
-                        }
+            /*SLIDESHOW*/
+            /* Slideshow container */
+            .slideshow-container {
+                max-width: 30%;
+                position: relative;
+                margin: auto;
+            }
+            
+                /* Hide the images by default */
+                .mySlides {
+                    display: none;
+                }
+                
+                /* Next & previous buttons */
+                .prev, .next {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    width: auto;
+                    margin-top: -22px;
+                    padding: 16px;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 18px;
+                    transition: 0.6s ease;
+                    border-radius: 0 3px 3px 0;
+                    user-select: none;
+                }
+                
+                /* Position the "next button" to the right */
+                .next {
+                    right: 0;
+                    border-radius: 3px 0 0 3px;
+                }
+                
+                /* On hover, add a black background color with a little bit see-through */
+                .prev:hover, .next:hover {
+                    background-color: rgba(0,0,0,0.8);
+                }
+                
+                /* Caption text */
+                .text {
+                    color: #f2f2f2;
+                    font-size: 15px;
+                    padding: 8px 12px;
+                    position: absolute;
+                    bottom: 8px;
+                    width: 100%;
+                    text-align: center;
+                }
+                
+                /* Number text (1/3 etc) */
+                .numbertext {
+                    color: #f2f2f2;
+                    font-size: 12px;
+                    padding: 8px 12px;
+                    position: absolute;
+                    top: 0;
+                }
+                
+                /* The dots/bullets/indicators */
+                .dot {
+                    cursor: pointer;
+                    height: 15px;
+                    width: 15px;
+                    margin: 0 2px;
+                    background-color: #bbb;
+                    border-radius: 50%;
+                    display: inline-block;
+                    transition: background-color 0.6s ease;
+                }
+                
+                .active, .dot:hover {
+                    background-color: #717171;
+                }
+                
+                /* Fading animation */
+                .fade {
+                    animation-name: fade;
+                    animation-duration: 1.5s;
+                }
+                
+                @keyframes fade {
+                    from {opacity: .4}
+                    to {opacity: 1}
+                }
+
+                .the-group {
+                    font-family: Helios; 
+                    font-size: 220%;
+                    color: red;
+                    font-weight: bold;
+                }
         
+                .anytime-anywhere {
+                    font-family:helios; 
+                    font-size: 220%; 
+                    color: red; 
+                    font-weight: bold
+                }
 }
