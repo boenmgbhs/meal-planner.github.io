@@ -1,0 +1,2487 @@
+@media only screen and (max-width: 300px) {
+    @font-face { 
+        font-family: Helios; 
+        src: url('fonts/Helios.ttf'); 
+    } 
+
+    section {
+        width: 100%;
+        height: 52.2vw;
+    }
+
+    .header {
+       display: block;
+       width: 100%;
+    }
+
+    .section-bg {
+    
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+
+        .nav-bg {
+            height: 190px;
+            top: -90px;
+            position: relative;
+            background-color: white;
+            opacity: 0.9;
+            z-index: 1;
+        }
+
+        .main-header {
+            position: relative;
+            z-index: 2;
+        }
+
+            .header-elements {
+                position: relative;
+                z-index: 2;
+                top: -160px;
+            }
+
+                .logo {
+                    margin-left: 100px;
+                    margin-top: 6vw;
+                    height: 18vw;
+                    width: auto;
+                    image-resolution: 100%;
+                    border-radius: 15px 15px;
+                }
+
+            .nav-buttons {
+                display: block;
+                top: -30px;
+                margin-left: 0px;
+                z-index: 2;
+                position: relative;
+
+            }
+
+            .home-button, .download-button {
+                color: white;
+                margin: 7px;
+                font-family: Helios;
+                font-size: 1.5vw;
+                background-color: black;
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-bottom: 7px;
+                padding-top: 7px;
+                border-radius: 7px 7px;
+                font-weight: bold;
+            }
+
+            .about-us-button {
+                color: white;
+                font-family: Helios;
+                font-size: 1.5vw;
+                margin: 7px;
+                background-color: black;
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-bottom: 7px;
+                padding-top: 7px;
+                border-radius: 7px 7px;
+                font-weight: bold;
+            }
+        
+                .about {
+                    display: inline-block;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+                .us {
+                    display: inline-block;
+                    color: #ff914d;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+    body-part-intro {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+
+        .body-part-intro-bg {
+            width: 100%;
+            position: relative;
+            z-index: -1;
+        }
+
+    body-part {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+
+        .body-part-bg {
+            width: 100%;
+            position: relative;
+            z-index: -1;
+        }
+
+        contents {
+            position: absolute;
+            vertical-align: center;
+            text-align: center;
+            align-items: center;
+        }
+
+        end-contents {
+            position: absolute;
+            vertical-align: center;
+            text-align: center;
+            margin-top: 5vw;
+        }
+
+
+        .heading {
+            margin-top: 8%;
+            width: 30%;
+        }
+
+        .other-heading {
+            margin-top: 7%;
+            width: 45%;
+        }
+            .description {
+                font-family: Helios;
+                font-size: 2vw;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                margin-left: 23%;
+                margin-right: 23%;
+            }
+
+            .end-description {
+                font-family: Helios;
+                margin: auto;
+                font-size: 2.2vw;
+                margin-bottom: 5%;
+                margin-left: 20%;
+                margin-right: 20%;
+                position: relative;
+                z-index: 2;
+            }
+
+            .body-part-design {
+                position: absolute;
+                z-index: 1;
+                width: 40%;
+                float: right;
+            }
+
+            .sub-content {
+                display: block;
+                margin-top: 5%;
+            }
+
+                .pc {
+                    max-width: 20%;
+                    display: inline-block;
+                    margin-left: 10%;
+                }
+
+                .body-part-description {
+                    display: inline-block;
+                    width: 45%;
+                    font-family: Helios;
+                    font-size: 2vw;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    margin-left: 35%;
+                    line-height: 1.4;
+                  
+                    margin-right: 5%;
+                    text-align: justify;
+                }
+
+        /*FORM PART*/
+        .contact-box form h1 {
+            font-size: 4.5vw;
+            color: white;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 0;
+            margin-left: 5vw;
+        }
+        
+        .contact-box form p {
+            color: black;
+            font-weight: bold;
+            font-size: 1.5vw;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 5vw;
+        }
+        
+        .form {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .background-image {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        
+        .contact-box {
+            width: 50%;
+            background-color: rgba(228, 191, 41, 0.8);
+            top: 0;
+            left: 75%;
+            transform: translateX(-50%);
+            position: absolute;
+            height: 100%;
+        }
+        
+        form {
+            margin: 35px;
+        }
+        
+        .label-container {
+            display: flex;
+            align-items: center;
+            height: 53px;
+            margin-left: 5vw;
+            font-size: 1.5vw;
+        }
+        
+        .label-container i {
+            margin-right: 10px;
+        }
+        
+        .input-container {
+            position: relative;
+            margin-bottom: 15px;
+        }
+        
+        /* Floating Label styles */
+        
+        .input-field,
+        .textarea-field {
+            width: 35vw;
+            height: 10vh;
+            margin-top: 2vh;
+            margin-left: 5vw;
+            padding: 0 1vw;
+            border: 1px solid #777;
+            border-radius: 2em;
+            outline: none;
+            background-color: #FFEBB9;
+            font-weight: bold;
+            font-size: 1.5vw;
+            position: relative;
+        }
+        
+        .input-field::before,
+        .textarea-field::before {
+            font-family: "Font Awesome 5 Free";
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #555; /* Adjust icon color */
+            font-size: 1.2em;
+        }
+        
+        .input-field::before {
+            content: "\f007"; /* Unicode for fa-solid fa-user */
+        }
+        
+        .textarea-field::before {
+            content: "\f0e0"; /* Unicode for fa-regular fa-envelope */
+        }
+        
+        .input-field,
+        .textarea-field,
+        .input-field::before,
+        .textarea-field::before {
+            transition: all 0.1s ease-in-out;
+        }
+        
+        .input-field::before,
+        .textarea-field::before {
+            transition: all 0.1s ease-in-out;
+            opacity: 0.5;
+        }
+        
+        .input-field:focus::before,
+        .textarea-field:focus::before,
+        .input-field:not(:placeholder-shown)::before,
+        .textarea-field:not(:placeholder-shown)::before {
+            font-size: 1em;
+            top: -20%;
+            opacity: 1;
+            color: #000;
+        }
+        
+        .textarea-field {
+            height: 20.3vh;
+        }
+        
+        .textarea-field:focus::before,
+        .textarea-field:not(:placeholder-shown)::before {
+            top: 5%;
+        }
+        
+        .btn {
+            border-radius: 2em;
+            color: #FF914D;
+            margin-top: 2vh;
+            padding: 1vh 2vw;
+            background-color: #FFFFFF;
+            font-size: 1.5vw;
+            border: none;
+            cursor: pointer;
+            width: 37vw;
+            margin-left: 5vw;
+            height: 7vh;
+            font-weight: bold;
+        }
+}
+
+@media only screen and (min-width: 300px) {
+    @font-face { 
+        font-family: Helios; 
+        src: url('fonts/Helios.ttf'); 
+    } 
+
+    section {
+        width: 100%;
+        height: 52.2vw;
+    }
+
+    .header {
+       display: block;
+       width: 100%;
+    }
+
+    .section-bg {
+    
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+
+        .nav-bg {
+            height: 190px;
+            top: -90px;
+            position: relative;
+            background-color: white;
+            opacity: 0.9;
+            z-index: 1;
+        }
+
+        .main-header {
+            position: relative;
+            z-index: 2;
+        }
+
+            .header-elements {
+                position: relative;
+                z-index: 2;
+                top: -160px;
+            }
+
+                .logo {
+                    margin-left: 100px;
+                    margin-top: 6vw;
+                    height: 18vw;
+                    width: auto;
+                    image-resolution: 100%;
+                    border-radius: 15px 15px;
+                }
+
+            .nav-buttons {
+                display: block;
+                top: -30px;
+                margin-left: 0px;
+                z-index: 2;
+                position: relative;
+
+            }
+
+            .home-button, .download-button {
+                color: white;
+                margin: 7px;
+                font-family: Helios;
+                font-size: 1.5vw;
+                background-color: black;
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-bottom: 7px;
+                padding-top: 7px;
+                border-radius: 7px 7px;
+                font-weight: bold;
+            }
+
+            .about-us-button {
+                color: white;
+                font-family: Helios;
+                font-size: 1.5vw;
+                margin: 7px;
+                background-color: black;
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-bottom: 7px;
+                padding-top: 7px;
+                border-radius: 7px 7px;
+                font-weight: bold;
+            }
+        
+                .about {
+                    display: inline-block;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+                .us {
+                    display: inline-block;
+                    color: #ff914d;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+    body-part-intro {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+
+        .body-part-intro-bg {
+            width: 100%;
+            position: relative;
+            z-index: -1;
+        }
+
+    body-part {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+
+        .body-part-bg {
+            width: 100%;
+            position: relative;
+            z-index: -1;
+        }
+
+        contents {
+            position: absolute;
+            vertical-align: center;
+            text-align: center;
+            align-items: center;
+        }
+
+        end-contents {
+            position: absolute;
+            vertical-align: center;
+            text-align: center;
+            margin-top: 5vw;
+        }
+
+
+        .heading {
+            margin-top: 8%;
+            width: 30%;
+        }
+
+        .other-heading {
+            margin-top: 7%;
+            width: 45%;
+        }
+            .description {
+                font-family: Helios;
+                font-size: 2vw;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                margin-left: 23%;
+                margin-right: 23%;
+            }
+
+            .end-description {
+                font-family: Helios;
+                margin: auto;
+                font-size: 2.2vw;
+                margin-bottom: 5%;
+                margin-left: 20%;
+                margin-right: 20%;
+                position: relative;
+                z-index: 2;
+            }
+
+            .body-part-design {
+                position: absolute;
+                z-index: 1;
+                width: 40%;
+                float: right;
+            }
+
+            .sub-content {
+                display: block;
+                margin-top: 5%;
+            }
+
+                .pc {
+                    max-width: 20%;
+                    display: inline-block;
+                    margin-left: 10%;
+                }
+
+                .body-part-description {
+                    display: inline-block;
+                    width: 45%;
+                    font-family: Helios;
+                    font-size: 2vw;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    margin-left: 35%;
+                    line-height: 1.4;
+                  
+                    margin-right: 5%;
+                    text-align: justify;
+                }
+
+        /*FORM PART*/
+        .contact-box form h1 {
+            font-size: 4.5vw;
+            color: white;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 0;
+            margin-left: 5vw;
+        }
+        
+        .contact-box form p {
+            color: black;
+            font-weight: bold;
+            font-size: 1.5vw;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 5vw;
+        }
+        
+        .form {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .background-image {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        
+        .contact-box {
+            width: 50%;
+            background-color: rgba(228, 191, 41, 0.8);
+            top: 0;
+            left: 75%;
+            transform: translateX(-50%);
+            position: absolute;
+            height: 100%;
+        }
+        
+        form {
+            margin: 35px;
+        }
+        
+        .label-container {
+            display: flex;
+            align-items: center;
+            height: 53px;
+            margin-left: 5vw;
+            font-size: 1.5vw;
+        }
+        
+        .label-container i {
+            margin-right: 10px;
+        }
+        
+        .input-container {
+            position: relative;
+            margin-bottom: 15px;
+        }
+        
+        /* Floating Label styles */
+        
+        .input-field,
+        .textarea-field {
+            width: 35vw;
+            height: 10vh;
+            margin-top: 2vh;
+            margin-left: 5vw;
+            padding: 0 1vw;
+            border: 1px solid #777;
+            border-radius: 2em;
+            outline: none;
+            background-color: #FFEBB9;
+            font-weight: bold;
+            font-size: 1.5vw;
+            position: relative;
+        }
+        
+        .input-field::before,
+        .textarea-field::before {
+            font-family: "Font Awesome 5 Free";
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #555; /* Adjust icon color */
+            font-size: 1.2em;
+        }
+        
+        .input-field::before {
+            content: "\f007"; /* Unicode for fa-solid fa-user */
+        }
+        
+        .textarea-field::before {
+            content: "\f0e0"; /* Unicode for fa-regular fa-envelope */
+        }
+        
+        .input-field,
+        .textarea-field,
+        .input-field::before,
+        .textarea-field::before {
+            transition: all 0.1s ease-in-out;
+        }
+        
+        .input-field::before,
+        .textarea-field::before {
+            transition: all 0.1s ease-in-out;
+            opacity: 0.5;
+        }
+        
+        .input-field:focus::before,
+        .textarea-field:focus::before,
+        .input-field:not(:placeholder-shown)::before,
+        .textarea-field:not(:placeholder-shown)::before {
+            font-size: 1em;
+            top: -20%;
+            opacity: 1;
+            color: #000;
+        }
+        
+        .textarea-field {
+            height: 20.3vh;
+        }
+        
+        .textarea-field:focus::before,
+        .textarea-field:not(:placeholder-shown)::before {
+            top: 5%;
+        }
+        
+        .btn {
+            border-radius: 2em;
+            color: #FF914D;
+            margin-top: 2vh;
+            padding: 1vh 2vw;
+            background-color: #FFFFFF;
+            font-size: 1.5vw;
+            border: none;
+            cursor: pointer;
+            width: 37vw;
+            margin-left: 5vw;
+            height: 7vh;
+            font-weight: bold;
+        }
+}
+
+@media only screen and (min-width: 500px) {
+    @font-face { 
+        font-family: Helios; 
+        src: url('fonts/Helios.ttf'); 
+    } 
+
+    section {
+        width: 100%;
+        height: 52.2vw;
+    }
+
+    .header {
+       display: block;
+       width: 100%;
+    }
+
+    .section-bg {
+    
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+
+        .nav-bg {
+            height: 190px;
+            top: -90px;
+            position: relative;
+            background-color: white;
+            opacity: 0.9;
+            z-index: 1;
+        }
+
+        .main-header {
+            position: relative;
+            z-index: 2;
+        }
+
+            .header-elements {
+                position: relative;
+                z-index: 2;
+                top: -160px;
+            }
+
+                .logo {
+                    margin-left: 100px;
+                    margin-top: 6vw;
+                    height: 18vw;
+                    width: auto;
+                    image-resolution: 100%;
+                    border-radius: 15px 15px;
+                }
+
+            .nav-buttons {
+                display: block;
+                top: -30px;
+                margin-left: 0px;
+                z-index: 2;
+                position: relative;
+
+            }
+
+            .home-button, .download-button {
+                color: white;
+                margin: 7px;
+                font-family: Helios;
+                font-size: 1.5vw;
+                background-color: black;
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-bottom: 7px;
+                padding-top: 7px;
+                border-radius: 7px 7px;
+                font-weight: bold;
+            }
+
+            .about-us-button {
+                color: white;
+                font-family: Helios;
+                font-size: 1.5vw;
+                margin: 7px;
+                background-color: black;
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-bottom: 7px;
+                padding-top: 7px;
+                border-radius: 7px 7px;
+                font-weight: bold;
+            }
+        
+                .about {
+                    display: inline-block;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+                .us {
+                    display: inline-block;
+                    color: #ff914d;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+    body-part-intro {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+
+        .body-part-intro-bg {
+            width: 100%;
+            position: relative;
+            z-index: -1;
+        }
+
+    body-part {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+
+        .body-part-bg {
+            width: 100%;
+            position: relative;
+            z-index: -1;
+        }
+
+        contents {
+            position: absolute;
+            vertical-align: center;
+            text-align: center;
+            align-items: center;
+        }
+
+        end-contents {
+            position: absolute;
+            vertical-align: center;
+            text-align: center;
+            margin-top: 5vw;
+        }
+
+
+        .heading {
+            margin-top: 8%;
+            width: 30%;
+        }
+
+        .other-heading {
+            margin-top: 7%;
+            width: 45%;
+        }
+            .description {
+                font-family: Helios;
+                font-size: 2vw;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                margin-left: 23%;
+                margin-right: 23%;
+            }
+
+            .end-description {
+                font-family: Helios;
+                margin: auto;
+                font-size: 2.2vw;
+                margin-bottom: 5%;
+                margin-left: 20%;
+                margin-right: 20%;
+                position: relative;
+                z-index: 2;
+            }
+
+            .body-part-design {
+                position: absolute;
+                z-index: 1;
+                width: 40%;
+                float: right;
+            }
+
+            .sub-content {
+                display: block;
+                margin-top: 5%;
+            }
+
+                .pc {
+                    max-width: 20%;
+                    display: inline-block;
+                    margin-left: 10%;
+                }
+
+                .body-part-description {
+                    display: inline-block;
+                    width: 45%;
+                    font-family: Helios;
+                    font-size: 2vw;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    margin-left: 35%;
+                    line-height: 1.4;
+                  
+                    margin-right: 5%;
+                    text-align: justify;
+                }
+
+        /*FORM PART*/
+        .contact-box form h1 {
+            font-size: 4.5vw;
+            color: white;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 0;
+            margin-left: 5vw;
+        }
+        
+        .contact-box form p {
+            color: black;
+            font-weight: bold;
+            font-size: 1.5vw;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 5vw;
+        }
+        
+        .form {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .background-image {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        
+        .contact-box {
+            width: 50%;
+            background-color: rgba(228, 191, 41, 0.8);
+            top: 0;
+            left: 75%;
+            transform: translateX(-50%);
+            position: absolute;
+            height: 100%;
+        }
+        
+        form {
+            margin: 35px;
+        }
+        
+        .label-container {
+            display: flex;
+            align-items: center;
+            height: 53px;
+            margin-left: 5vw;
+            font-size: 1.5vw;
+        }
+        
+        .label-container i {
+            margin-right: 10px;
+        }
+        
+        .input-container {
+            position: relative;
+            margin-bottom: 15px;
+        }
+        
+        /* Floating Label styles */
+        
+        .input-field,
+        .textarea-field {
+            width: 35vw;
+            height: 10vh;
+            margin-top: 2vh;
+            margin-left: 5vw;
+            padding: 0 1vw;
+            border: 1px solid #777;
+            border-radius: 2em;
+            outline: none;
+            background-color: #FFEBB9;
+            font-weight: bold;
+            font-size: 1.5vw;
+            position: relative;
+        }
+        
+        .input-field::before,
+        .textarea-field::before {
+            font-family: "Font Awesome 5 Free";
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #555; /* Adjust icon color */
+            font-size: 1.2em;
+        }
+        
+        .input-field::before {
+            content: "\f007"; /* Unicode for fa-solid fa-user */
+        }
+        
+        .textarea-field::before {
+            content: "\f0e0"; /* Unicode for fa-regular fa-envelope */
+        }
+        
+        .input-field,
+        .textarea-field,
+        .input-field::before,
+        .textarea-field::before {
+            transition: all 0.1s ease-in-out;
+        }
+        
+        .input-field::before,
+        .textarea-field::before {
+            transition: all 0.1s ease-in-out;
+            opacity: 0.5;
+        }
+        
+        .input-field:focus::before,
+        .textarea-field:focus::before,
+        .input-field:not(:placeholder-shown)::before,
+        .textarea-field:not(:placeholder-shown)::before {
+            font-size: 1em;
+            top: -20%;
+            opacity: 1;
+            color: #000;
+        }
+        
+        .textarea-field {
+            height: 20.3vh;
+        }
+        
+        .textarea-field:focus::before,
+        .textarea-field:not(:placeholder-shown)::before {
+            top: 5%;
+        }
+        
+        .btn {
+            border-radius: 2em;
+            color: #FF914D;
+            margin-top: 2vh;
+            padding: 1vh 2vw;
+            background-color: #FFFFFF;
+            font-size: 1.5vw;
+            border: none;
+            cursor: pointer;
+            width: 37vw;
+            margin-left: 5vw;
+            height: 7vh;
+            font-weight: bold;
+        }
+}
+
+@media only screen and (min-width: 600px) {
+    
+    @font-face { 
+        font-family: Helios; 
+        src: url('fonts/Helios.ttf'); 
+    } 
+
+    section {
+        width: 100%;
+        height: 52.2vw;
+    }
+
+    .header {
+       display: block;
+       width: 100%;
+    }
+
+    .section-bg {
+    
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+
+        .nav-bg {
+            height: 190px;
+            top: -90px;
+            position: relative;
+            background-color: white;
+            opacity: 0.9;
+            z-index: 1;
+        }
+
+        .main-header {
+            position: relative;
+            z-index: 2;
+        }
+
+            .header-elements {
+                position: relative;
+                z-index: 2;
+                top: -160px;
+            }
+
+                .logo {
+                    margin-left: 100px;
+                    margin-top: 6vw;
+                    height: 18vw;
+                    width: auto;
+                    image-resolution: 100%;
+                    border-radius: 15px 15px;
+                }
+
+            .nav-buttons {
+                display: block;
+                top: -30px;
+                margin-left: 0px;
+                z-index: 2;
+                position: relative;
+
+            }
+
+            .home-button, .download-button {
+                color: white;
+                margin: 7px;
+                font-family: Helios;
+                font-size: 1.5vw;
+                background-color: black;
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-bottom: 7px;
+                padding-top: 7px;
+                border-radius: 7px 7px;
+                font-weight: bold;
+            }
+
+            .about-us-button {
+                color: white;
+                font-family: Helios;
+                font-size: 1.5vw;
+                margin: 7px;
+                background-color: black;
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-bottom: 7px;
+                padding-top: 7px;
+                border-radius: 7px 7px;
+                font-weight: bold;
+            }
+        
+                .about {
+                    display: inline-block;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+                .us {
+                    display: inline-block;
+                    color: #ff914d;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+    body-part-intro {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+
+        .body-part-intro-bg {
+            width: 100%;
+            position: relative;
+            z-index: -1;
+        }
+
+    body-part {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+
+        .body-part-bg {
+            width: 100%;
+            position: relative;
+            z-index: -1;
+        }
+
+        contents {
+            position: absolute;
+            vertical-align: center;
+            text-align: center;
+            align-items: center;
+        }
+
+        end-contents {
+            position: absolute;
+            vertical-align: center;
+            text-align: center;
+            margin-top: 5vw;
+        }
+
+
+        .heading {
+            margin-top: 8%;
+            width: 30%;
+        }
+
+        .other-heading {
+            margin-top: 7%;
+            width: 45%;
+        }
+            .description {
+                font-family: Helios;
+                font-size: 2vw;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                margin-left: 23%;
+                margin-right: 23%;
+            }
+
+            .end-description {
+                font-family: Helios;
+                margin: auto;
+                font-size: 2.2vw;
+                margin-bottom: 5%;
+                margin-left: 20%;
+                margin-right: 20%;
+                position: relative;
+                z-index: 2;
+            }
+
+            .body-part-design {
+                position: absolute;
+                z-index: 1;
+                width: 40%;
+                float: right;
+            }
+
+            .sub-content {
+                display: block;
+                margin-top: 5%;
+            }
+
+                .pc {
+                    max-width: 20%;
+                    display: inline-block;
+                    margin-left: 10%;
+                }
+
+                .body-part-description {
+                    display: inline-block;
+                    width: 45%;
+                    font-family: Helios;
+                    font-size: 2vw;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    margin-left: 35%;
+                    line-height: 1.4;
+                  
+                    margin-right: 5%;
+                    text-align: justify;
+                }
+
+        /*FORM PART*/
+        .contact-box form h1 {
+            font-size: 4.5vw;
+            color: white;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 0;
+            margin-left: 5vw;
+        }
+        
+        .contact-box form p {
+            color: black;
+            font-weight: bold;
+            font-size: 1.5vw;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 5vw;
+        }
+        
+        .form {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .background-image {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        
+        .contact-box {
+            width: 50%;
+            background-color: rgba(228, 191, 41, 0.8);
+            top: 0;
+            left: 75%;
+            transform: translateX(-50%);
+            position: absolute;
+            height: 100%;
+        }
+        
+        form {
+            margin: 35px;
+        }
+        
+        .label-container {
+            display: flex;
+            align-items: center;
+            height: 53px;
+            margin-left: 5vw;
+            font-size: 1.5vw;
+        }
+        
+        .label-container i {
+            margin-right: 10px;
+        }
+        
+        .input-container {
+            position: relative;
+            margin-bottom: 15px;
+        }
+        
+        /* Floating Label styles */
+        
+        .input-field,
+        .textarea-field {
+            width: 35vw;
+            height: 10vh;
+            margin-top: 2vh;
+            margin-left: 5vw;
+            padding: 0 1vw;
+            border: 1px solid #777;
+            border-radius: 2em;
+            outline: none;
+            background-color: #FFEBB9;
+            font-weight: bold;
+            font-size: 1.5vw;
+            position: relative;
+        }
+        
+        .input-field::before,
+        .textarea-field::before {
+            font-family: "Font Awesome 5 Free";
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #555; /* Adjust icon color */
+            font-size: 1.2em;
+        }
+        
+        .input-field::before {
+            content: "\f007"; /* Unicode for fa-solid fa-user */
+        }
+        
+        .textarea-field::before {
+            content: "\f0e0"; /* Unicode for fa-regular fa-envelope */
+        }
+        
+        .input-field,
+        .textarea-field,
+        .input-field::before,
+        .textarea-field::before {
+            transition: all 0.1s ease-in-out;
+        }
+        
+        .input-field::before,
+        .textarea-field::before {
+            transition: all 0.1s ease-in-out;
+            opacity: 0.5;
+        }
+        
+        .input-field:focus::before,
+        .textarea-field:focus::before,
+        .input-field:not(:placeholder-shown)::before,
+        .textarea-field:not(:placeholder-shown)::before {
+            font-size: 1em;
+            top: -20%;
+            opacity: 1;
+            color: #000;
+        }
+        
+        .textarea-field {
+            height: 20.3vh;
+        }
+        
+        .textarea-field:focus::before,
+        .textarea-field:not(:placeholder-shown)::before {
+            top: 5%;
+        }
+        
+        .btn {
+            border-radius: 2em;
+            color: #FF914D;
+            margin-top: 2vh;
+            padding: 1vh 2vw;
+            background-color: #FFFFFF;
+            font-size: 1.5vw;
+            border: none;
+            cursor: pointer;
+            width: 37vw;
+            margin-left: 5vw;
+            height: 7vh;
+            font-weight: bold;
+        }
+}
+
+@media only screen and (min-width: 768px) {
+
+    @font-face { 
+        font-family: Helios; 
+        src: url('fonts/Helios.ttf'); 
+    } 
+
+    section {
+        width: 100%;
+        height: 52.2vw;
+    }
+
+    .header {
+       display: block;
+       width: 100%;
+    }
+
+    .section-bg {
+    
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+
+        .nav-bg {
+            height: 190px;
+            top: -90px;
+            position: relative;
+            background-color: white;
+            opacity: 0.9;
+            z-index: 1;
+        }
+
+        .main-header {
+            position: relative;
+            z-index: 2;
+        }
+
+            .header-elements {
+                position: relative;
+                z-index: 2;
+                top: -160px;
+            }
+
+                .logo {
+                    margin-left: 100px;
+                    margin-top: 6vw;
+                    height: 18vw;
+                    width: auto;
+                    image-resolution: 100%;
+                    border-radius: 15px 15px;
+                }
+
+            .nav-buttons {
+                display: block;
+                top: -30px;
+                margin-left: 0px;
+                z-index: 2;
+                position: relative;
+
+            }
+
+            .home-button, .download-button {
+                color: white;
+                margin: 7px;
+                font-family: Helios;
+                font-size: 1.5vw;
+                background-color: black;
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-bottom: 7px;
+                padding-top: 7px;
+                border-radius: 7px 7px;
+                font-weight: bold;
+            }
+
+            .about-us-button {
+                color: white;
+                font-family: Helios;
+                font-size: 1.5vw;
+                margin: 7px;
+                background-color: black;
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-bottom: 7px;
+                padding-top: 7px;
+                border-radius: 7px 7px;
+                font-weight: bold;
+            }
+        
+                .about {
+                    display: inline-block;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+                .us {
+                    display: inline-block;
+                    color: #ff914d;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+    body-part-intro {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+
+        .body-part-intro-bg {
+            width: 100%;
+            position: relative;
+            z-index: -1;
+        }
+
+    body-part {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+
+        .body-part-bg {
+            width: 100%;
+            position: relative;
+            z-index: -1;
+        }
+
+        contents {
+            position: absolute;
+            vertical-align: center;
+            text-align: center;
+            align-items: center;
+        }
+
+        end-contents {
+            position: absolute;
+            vertical-align: center;
+            text-align: center;
+            margin-top: 5vw;
+        }
+
+
+        .heading {
+            margin-top: 8%;
+            width: 30%;
+        }
+
+        .other-heading {
+            margin-top: 7%;
+            width: 45%;
+        }
+            .description {
+                font-family: Helios;
+                font-size: 2vw;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                margin-left: 23%;
+                margin-right: 23%;
+            }
+
+            .end-description {
+                font-family: Helios;
+                margin: auto;
+                font-size: 2.2vw;
+                margin-bottom: 5%;
+                margin-left: 20%;
+                margin-right: 20%;
+                position: relative;
+                z-index: 2;
+            }
+
+            .body-part-design {
+                position: absolute;
+                z-index: 1;
+                width: 40%;
+                float: right;
+            }
+
+            .sub-content {
+                display: block;
+                margin-top: 5%;
+            }
+
+                .pc {
+                    max-width: 20%;
+                    display: inline-block;
+                    margin-left: 10%;
+                }
+
+                .body-part-description {
+                    display: inline-block;
+                    width: 45%;
+                    font-family: Helios;
+                    font-size: 2vw;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    margin-left: 35%;
+                    line-height: 1.4;
+                  
+                    margin-right: 5%;
+                    text-align: justify;
+                }
+
+        /*FORM PART*/
+        .contact-box form h1 {
+            font-size: 4.5vw;
+            color: white;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 0;
+            margin-left: 5vw;
+        }
+        
+        .contact-box form p {
+            color: black;
+            font-weight: bold;
+            font-size: 1.5vw;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 5vw;
+        }
+        
+        .form {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .background-image {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        
+        .contact-box {
+            width: 50%;
+            background-color: rgba(228, 191, 41, 0.8);
+            top: 0;
+            left: 75%;
+            transform: translateX(-50%);
+            position: absolute;
+            height: 100%;
+        }
+        
+        form {
+            margin: 35px;
+        }
+        
+        .label-container {
+            display: flex;
+            align-items: center;
+            height: 53px;
+            margin-left: 5vw;
+            font-size: 1.5vw;
+        }
+        
+        .label-container i {
+            margin-right: 10px;
+        }
+        
+        .input-container {
+            position: relative;
+            margin-bottom: 15px;
+        }
+        
+        /* Floating Label styles */
+        
+        .input-field,
+        .textarea-field {
+            width: 35vw;
+            height: 10vh;
+            margin-top: 2vh;
+            margin-left: 5vw;
+            padding: 0 1vw;
+            border: 1px solid #777;
+            border-radius: 2em;
+            outline: none;
+            background-color: #FFEBB9;
+            font-weight: bold;
+            font-size: 1.5vw;
+            position: relative;
+        }
+        
+        .input-field::before,
+        .textarea-field::before {
+            font-family: "Font Awesome 5 Free";
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #555; /* Adjust icon color */
+            font-size: 1.2em;
+        }
+        
+        .input-field::before {
+            content: "\f007"; /* Unicode for fa-solid fa-user */
+        }
+        
+        .textarea-field::before {
+            content: "\f0e0"; /* Unicode for fa-regular fa-envelope */
+        }
+        
+        .input-field,
+        .textarea-field,
+        .input-field::before,
+        .textarea-field::before {
+            transition: all 0.1s ease-in-out;
+        }
+        
+        .input-field::before,
+        .textarea-field::before {
+            transition: all 0.1s ease-in-out;
+            opacity: 0.5;
+        }
+        
+        .input-field:focus::before,
+        .textarea-field:focus::before,
+        .input-field:not(:placeholder-shown)::before,
+        .textarea-field:not(:placeholder-shown)::before {
+            font-size: 1em;
+            top: -20%;
+            opacity: 1;
+            color: #000;
+        }
+        
+        .textarea-field {
+            height: 20.3vh;
+        }
+        
+        .textarea-field:focus::before,
+        .textarea-field:not(:placeholder-shown)::before {
+            top: 5%;
+        }
+        
+        .btn {
+            border-radius: 2em;
+            color: #FF914D;
+            margin-top: 2vh;
+            padding: 1vh 2vw;
+            background-color: #FFFFFF;
+            font-size: 1.5vw;
+            border: none;
+            cursor: pointer;
+            width: 37vw;
+            margin-left: 5vw;
+            height: 7vh;
+            font-weight: bold;
+        }
+}
+
+@media only screen and (min-width: 992px) {
+
+    @font-face { 
+        font-family: Helios; 
+        src: url('fonts/Helios.ttf'); 
+    } 
+
+    section {
+        width: 100%;
+        height: 52.2vw;
+    }
+
+    .header {
+       display: block;
+       width: 100%;
+    }
+
+    .section-bg {
+    
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+
+        .nav-bg {
+            height: 190px;
+            top: -90px;
+            position: relative;
+            background-color: white;
+            opacity: 0.9;
+            z-index: 1;
+        }
+
+        .main-header {
+            position: relative;
+            z-index: 2;
+        }
+
+            .header-elements {
+                position: relative;
+                z-index: 2;
+                top: -160px;
+            }
+
+                .logo {
+                    margin-left: 100px;
+                    margin-top: 6vw;
+                    height: 18vw;
+                    width: auto;
+                    image-resolution: 100%;
+                    border-radius: 15px 15px;
+                }
+
+            .nav-buttons {
+                display: block;
+                top: -30px;
+                margin-left: 0px;
+                z-index: 2;
+                position: relative;
+
+            }
+
+            .home-button, .download-button {
+                color: white;
+                margin: 7px;
+                font-family: Helios;
+                font-size: 1.5vw;
+                background-color: black;
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-bottom: 7px;
+                padding-top: 7px;
+                border-radius: 7px 7px;
+                font-weight: bold;
+            }
+
+            .about-us-button {
+                color: white;
+                font-family: Helios;
+                font-size: 1.5vw;
+                margin: 7px;
+                background-color: black;
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-bottom: 7px;
+                padding-top: 7px;
+                border-radius: 7px 7px;
+                font-weight: bold;
+            }
+        
+                .about {
+                    display: inline-block;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+                .us {
+                    display: inline-block;
+                    color: #ff914d;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+    body-part-intro {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+
+        .body-part-intro-bg {
+            width: 100%;
+            position: relative;
+            z-index: -1;
+        }
+
+    body-part {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+
+        .body-part-bg {
+            width: 100%;
+            position: relative;
+            z-index: -1;
+        }
+
+        contents {
+            position: absolute;
+            vertical-align: center;
+            text-align: center;
+            align-items: center;
+        }
+
+        end-contents {
+            position: absolute;
+            vertical-align: center;
+            text-align: center;
+            margin-top: 5vw;
+        }
+
+
+        .heading {
+            margin-top: 8%;
+            width: 30%;
+        }
+
+        .other-heading {
+            margin-top: 7%;
+            width: 45%;
+        }
+            .description {
+                font-family: Helios;
+                font-size: 2vw;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                margin-left: 23%;
+                margin-right: 23%;
+            }
+
+            .end-description {
+                font-family: Helios;
+                margin: auto;
+                font-size: 2.2vw;
+                margin-bottom: 5%;
+                margin-left: 20%;
+                margin-right: 20%;
+                position: relative;
+                z-index: 2;
+            }
+
+            .body-part-design {
+                position: absolute;
+                z-index: 1;
+                width: 40%;
+                float: right;
+            }
+
+            .sub-content {
+                display: block;
+                margin-top: 5%;
+            }
+
+                .pc {
+                    max-width: 20%;
+                    display: inline-block;
+                    margin-left: 10%;
+                }
+
+                .body-part-description {
+                    display: inline-block;
+                    width: 45%;
+                    font-family: Helios;
+                    font-size: 2vw;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    margin-left: 35%;
+                    line-height: 1.4;
+                  
+                    margin-right: 5%;
+                    text-align: justify;
+                }
+
+        /*FORM PART*/
+        .contact-box form h1 {
+            font-size: 4.5vw;
+            color: white;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 0;
+            margin-left: 5vw;
+        }
+        
+        .contact-box form p {
+            color: black;
+            font-weight: bold;
+            font-size: 1.5vw;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 5vw;
+        }
+        
+        .form {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .background-image {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        
+        .contact-box {
+            width: 50%;
+            background-color: rgba(228, 191, 41, 0.8);
+            top: 0;
+            left: 75%;
+            transform: translateX(-50%);
+            position: absolute;
+            height: 100%;
+        }
+        
+        form {
+            margin: 35px;
+        }
+        
+        .label-container {
+            display: flex;
+            align-items: center;
+            height: 53px;
+            margin-left: 5vw;
+            font-size: 1.5vw;
+        }
+        
+        .label-container i {
+            margin-right: 10px;
+        }
+        
+        .input-container {
+            position: relative;
+            margin-bottom: 15px;
+        }
+        
+        /* Floating Label styles */
+        
+        .input-field,
+        .textarea-field {
+            width: 35vw;
+            height: 10vh;
+            margin-top: 2vh;
+            margin-left: 5vw;
+            padding: 0 1vw;
+            border: 1px solid #777;
+            border-radius: 2em;
+            outline: none;
+            background-color: #FFEBB9;
+            font-weight: bold;
+            font-size: 1.5vw;
+            position: relative;
+        }
+        
+        .input-field::before,
+        .textarea-field::before {
+            font-family: "Font Awesome 5 Free";
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #555; /* Adjust icon color */
+            font-size: 1.2em;
+        }
+        
+        .input-field::before {
+            content: "\f007"; /* Unicode for fa-solid fa-user */
+        }
+        
+        .textarea-field::before {
+            content: "\f0e0"; /* Unicode for fa-regular fa-envelope */
+        }
+        
+        .input-field,
+        .textarea-field,
+        .input-field::before,
+        .textarea-field::before {
+            transition: all 0.1s ease-in-out;
+        }
+        
+        .input-field::before,
+        .textarea-field::before {
+            transition: all 0.1s ease-in-out;
+            opacity: 0.5;
+        }
+        
+        .input-field:focus::before,
+        .textarea-field:focus::before,
+        .input-field:not(:placeholder-shown)::before,
+        .textarea-field:not(:placeholder-shown)::before {
+            font-size: 1em;
+            top: -20%;
+            opacity: 1;
+            color: #000;
+        }
+        
+        .textarea-field {
+            height: 20.3vh;
+        }
+        
+        .textarea-field:focus::before,
+        .textarea-field:not(:placeholder-shown)::before {
+            top: 5%;
+        }
+        
+        .btn {
+            border-radius: 2em;
+            color: #FF914D;
+            margin-top: 2vh;
+            padding: 1vh 2vw;
+            background-color: #FFFFFF;
+            font-size: 1.5vw;
+            border: none;
+            cursor: pointer;
+            width: 37vw;
+            margin-left: 5vw;
+            height: 7vh;
+            font-weight: bold;
+        }
+}
+
+@media only screen and (min-width: 1200px) {
+    @font-face { 
+        font-family: Helios; 
+        src: url('fonts/Helios.ttf'); 
+    } 
+
+    section {
+        width: 100%;
+        height: 52.2vw;
+    }
+
+    .header {
+       display: block;
+       width: 100%;
+    }
+
+    .section-bg {
+    
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+
+        .nav-bg {
+            height: 190px;
+            top: -90px;
+            position: relative;
+            background-color: white;
+            opacity: 0.9;
+            z-index: 1;
+        }
+
+        .main-header {
+            position: relative;
+            z-index: 2;
+        }
+
+            .header-elements {
+                position: relative;
+                z-index: 2;
+                top: -160px;
+            }
+
+                .logo {
+                    margin-left: 100px;
+                    margin-top: 6vw;
+                    height: 18vw;
+                    width: auto;
+                    image-resolution: 100%;
+                    border-radius: 15px 15px;
+                }
+
+            .nav-buttons {
+                display: block;
+                top: -30px;
+                margin-left: 0px;
+                z-index: 2;
+                position: relative;
+
+            }
+
+            .home-button, .download-button {
+                color: white;
+                margin: 7px;
+                font-family: Helios;
+                font-size: 1.5vw;
+                background-color: black;
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-bottom: 7px;
+                padding-top: 7px;
+                border-radius: 7px 7px;
+                font-weight: bold;
+            }
+
+            .about-us-button {
+                color: white;
+                font-family: Helios;
+                font-size: 1.5vw;
+                margin: 7px;
+                background-color: black;
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-bottom: 7px;
+                padding-top: 7px;
+                border-radius: 7px 7px;
+                font-weight: bold;
+            }
+        
+                .about {
+                    display: inline-block;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+                .us {
+                    display: inline-block;
+                    color: #ff914d;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+    body-part-intro {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+
+        .body-part-intro-bg {
+            width: 100%;
+            position: relative;
+            z-index: -1;
+        }
+
+    body-part {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+
+        .body-part-bg {
+            width: 100%;
+            position: relative;
+            z-index: -1;
+        }
+
+        contents {
+            position: absolute;
+            vertical-align: center;
+            text-align: center;
+            align-items: center;
+        }
+
+        end-contents {
+            position: absolute;
+            vertical-align: center;
+            text-align: center;
+            margin-top: 5vw;
+        }
+
+
+        .heading {
+            margin-top: 8%;
+            width: 30%;
+        }
+
+        .other-heading {
+            margin-top: 7%;
+            width: 45%;
+        }
+            .description {
+                font-family: Helios;
+                font-size: 2vw;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                margin-left: 23%;
+                margin-right: 23%;
+            }
+
+            .end-description {
+                font-family: Helios;
+                margin: auto;
+                font-size: 2.2vw;
+                margin-bottom: 5%;
+                margin-left: 20%;
+                margin-right: 20%;
+                position: relative;
+                z-index: 2;
+            }
+
+            .body-part-design {
+                position: absolute;
+                z-index: 1;
+                width: 40%;
+                float: right;
+            }
+
+            .sub-content {
+                display: block;
+                margin-top: 5%;
+            }
+
+                .pc {
+                    max-width: 20%;
+                    display: inline-block;
+                    margin-left: 10%;
+                }
+
+                .body-part-description {
+                    display: inline-block;
+                    width: 45%;
+                    font-family: Helios;
+                    font-size: 2vw;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    margin-left: 35%;
+                    line-height: 1.4;
+                  
+                    margin-right: 5%;
+                    text-align: justify;
+                }
+
+        /*FORM PART*/
+        .contact-box form h1 {
+            font-size: 4.5vw;
+            color: white;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 0;
+            margin-left: 5vw;
+        }
+        
+        .contact-box form p {
+            color: black;
+            font-weight: bold;
+            font-size: 1.5vw;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 5vw;
+        }
+        
+        .form {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .background-image {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        
+        .contact-box {
+            width: 50%;
+            background-color: rgba(228, 191, 41, 0.8);
+            top: 0;
+            left: 75%;
+            transform: translateX(-50%);
+            position: absolute;
+            height: 100%;
+        }
+        
+        form {
+            margin: 35px;
+        }
+        
+        .label-container {
+            display: flex;
+            align-items: center;
+            height: 53px;
+            margin-left: 5vw;
+            font-size: 1.5vw;
+        }
+        
+        .label-container i {
+            margin-right: 10px;
+        }
+        
+        .input-container {
+            position: relative;
+            margin-bottom: 15px;
+        }
+        
+        /* Floating Label styles */
+        
+        .input-field,
+        .textarea-field {
+            width: 35vw;
+            height: 10vh;
+            margin-top: 2vh;
+            margin-left: 5vw;
+            padding: 0 1vw;
+            border: 1px solid #777;
+            border-radius: 2em;
+            outline: none;
+            background-color: #FFEBB9;
+            font-weight: bold;
+            font-size: 1.5vw;
+            position: relative;
+        }
+        
+        .input-field::before,
+        .textarea-field::before {
+            font-family: "Font Awesome 5 Free";
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #555; /* Adjust icon color */
+            font-size: 1.2em;
+        }
+        
+        .input-field::before {
+            content: "\f007"; /* Unicode for fa-solid fa-user */
+        }
+        
+        .textarea-field::before {
+            content: "\f0e0"; /* Unicode for fa-regular fa-envelope */
+        }
+        
+        .input-field,
+        .textarea-field,
+        .input-field::before,
+        .textarea-field::before {
+            transition: all 0.1s ease-in-out;
+        }
+        
+        .input-field::before,
+        .textarea-field::before {
+            transition: all 0.1s ease-in-out;
+            opacity: 0.5;
+        }
+        
+        .input-field:focus::before,
+        .textarea-field:focus::before,
+        .input-field:not(:placeholder-shown)::before,
+        .textarea-field:not(:placeholder-shown)::before {
+            font-size: 1em;
+            top: -20%;
+            opacity: 1;
+            color: #000;
+        }
+        
+        .textarea-field {
+            height: 20.3vh;
+        }
+        
+        .textarea-field:focus::before,
+        .textarea-field:not(:placeholder-shown)::before {
+            top: 5%;
+        }
+        
+        .btn {
+            border-radius: 2em;
+            color: #FF914D;
+            margin-top: 2vh;
+            padding: 1vh 2vw;
+            background-color: #FFFFFF;
+            font-size: 1.5vw;
+            border: none;
+            cursor: pointer;
+            width: 37vw;
+            margin-left: 5vw;
+            height: 7vh;
+            font-weight: bold;
+        }
+}
