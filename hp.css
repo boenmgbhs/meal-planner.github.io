@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Helios;
+    src: url(fonts/Helios.ttf);
+  }
+
+body {
+    margin: 0px;
+}
+
+.nav {
+    text-align: center;
+    background-color: white;
+}
+
+.nav-buttons {
+    list-style-type: none;
+
+}
+
+.nav-button {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.home-button, .download-button, .about-us-button {
+    font-family: Helios;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 7px;
+    border-radius: 7px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.mv {
+    background-image: url(images/header-bg.jpg);
+    height: 300px;
+}
+
+    .logo {
+        width: 350px;
+        margin-left: 30px;
+        padding-top: 30px
+    }
+
+.page-2 {
+    background-image: url(images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .page-element-block {
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+        .page-heading {
+            height: 50px;
+        }
+
+        .page-text {
+            font-family: Helios;
+            font-size: medium;
+        }
+
+        .app-photo {
+            height: 100px;
+        }
+
+.page {
+    background-image: url(images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+    .page-element-block2 {
+        text-align: center;
+        padding-bottom: 20%;
+    
+    }
+
+
+        .page-heading2 {
+            height: 100px;
+
+        }
+
+        .page-text2 {
+            font-family: Helios;
+            font-size: medium;
+            text-align: left;
+            padding-top: 5%;
+            padding-left: 40%;
+        }
+
+.page-3 {
+    background-image: url(images/bg3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+        
+    .page-element-block2 {
+        text-align: center;
+        padding-bottom: 20%;
+    }
+        
+        .page-heading2 {
+            height: 100px;
+        }
+
+        .out-heading {
+            display: inline-block;
+            font-family: Helios;
+            font-weight: bold;
+            font-size: larger;
+        }
+        
+        .page-text2 {
+            font-family: Helios;
+            font-size: medium;
+            text-align: left;
+            padding-top: 5%;
+            padding-left: 40%;
+        }
+            
