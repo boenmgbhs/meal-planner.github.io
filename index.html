@@ -1,98 +1,78 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>MEAL PLANNER - HOME</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="homepage.js"></script>
-        <link rel="stylesheet" href="homepage.css">
+        <meta charset="utf-8">
+        <title>Meal Planner - Homepage</title>
+        <link rel="stylesheet" href="hp.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <section class="header">
-            <img class="section-bg" src="images/header-bg.png">
-                <!--This is where the background for the 
-                header is being contained.-->
-                <div class="nav-bg"></div>
-
-                <!--The block where the logo and the nav buttons
-                are being contained.-->
-                <div class="header-elements">
-                    <center><div class="nav-buttons">
-                        <ul style="list-style-type: none; align-items: center; padding: 0px; ">
-                            <li style="display: inline-block;"><button class="home-button">HOME</button></li>
-                            <li style="display: inline-block;"><button class="download-button">DOWNLOAD</button></li>
-
-                            <!--ABOUT and US are being separated to follow the Canva
-                            design, wherein the US text is orange.-->
-                            <li style="display: inline-block;"><button class="about-us-button"><p class="about">ABOUT&nbsp;</p><p class="us">US</p></button></li>
-                        </ul>
-                    </div></center>
-                    <div class="logo-element">
-                        <img class="logo" src="images/logo.png">
-                    </div>
-                </div>
+        <nav>
+            <div class="nav-items">
+                <ul class="nav-links">
+                    <li class="nav-links-home"><button class="nav-links-home-button">HOME</button></li>
+                    <li class="nav-links-download"><button class="nav-links-download-button">DOWNLOAD</button></li>
+                    <li class="nav-links-about-us"><button class="nav-links-about-us-button">ABOUT US</button></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="section-1">
+            <div class="section-1-container">
+                <div class="section-1-container-item-1"><img src="images/header-bg.png" style="width: 100%;"></div>
+                <div class="section-1-container-item-2"><center><img src="images/logo.png" width="100%" style="border-radius: 10%;"></center></div>
+            </div>
         </section>
-        <section>
-            <body-part-intro>
-                <contents>
-                    <img class="heading" src="images/intro-text.png">
-                    <br>
-                    <div class="sub-content">
-                        <p class="description">
-                            Developed by a group of students from STI College Las Pinas, IT211, a meal planner desktop application that will aim to monitor the food expenses of the students by allowing them to plan their meals in advance.
-                        </p>
-                    </div>
-                    <br>
-                    <img style="width: 15%;" src="images/pc-icon.png">
-                </contents>
-                <img class="body-part-bg" src="images/bg1.png">
-            </body-part-intro>
+        <section class="section-2">
+            <div class="section-2-container">
+                <div class="section-2-container-item-1"><img src="images/bg1.png" style="width: 100%;"></div>
+                <div class="section-2-container-item-2"><center><img src="images/intro-text.png" style="width: 50%"></center></div>
+                <div class="section-2-container-item-3">
+                    <p>Developed by a group of students from STI College Las Pinas, 
+                    IT211, a meal planner 
+                    desktop application that 
+                    will aim to monitor the food expenses of the students 
+                    by allowing them to plan their meals in advance.</p>
+                </div>
+                <div class="section-2-container-item-4"><center><img src="images/pc-icon.png" style="width: 50%"></center></div>
+            </div>
         </section>
-
-        <body-part>
-            <contents>
-                <img class="other-heading" src="images/add-text.png">
-                <br>
-                <div class="sub-content">
-                    <p class="body-part-description">
-                        In this Meal Planner, you were able to set and pick your own food plan, 
-                        pick a day with just one click. Planning your food right away can save your time. 
-                    </p>
+        <section class="section-3">
+            <div class="section-3-container">
+                <div class="section-3-container-item-1"><img src="images/bg2.png" style="width: 100%;"></div>
+                <div class="section-3-container-item-2"><center><img src="images/add-text.png" style="width: 65%"></center></div>
+                <div class="section-3-container-item-3">
+                    <p>In this Meal Planner, you were able to set and pick your own food plan, pick a day with just one click. 
+                        Planning your food right away can save your time.</p>
                 </div>
-            </contents>
-            <img class="body-part-bg" src="images/bg2.png">
-        </body-part>
-
-        <body-part>
-            <contents>
-                <img class="other-heading" src="images/pick-text.png">
-                <br>
-                <div class="sub-content">
-                    <p class="body-part-description">
-                        With this application you were able to set your own food plan, 
-                        pick your choices of foods and drinks and set it for the next day.
-                    </p>
+            </div>
+        </section>
+        <section class="section-3">
+            <div class="section-3-container">
+                <div class="section-3-container-item-1"><img src="images/bg2.png" style="width: 100%;"></div>
+                <div class="section-3-container-item-2"><center><img src="images/pick-text.png" style="width: 65%"></center></div>
+                <div class="section-3-container-item-3">
+                    <p>With this application you were able to set your own food plan, pick your 
+                        choices of foods and drinks and set it for the next day.</p>
                 </div>
-            </contents>
-            <img class="body-part-bg" src="images/bg2.png">
-        </body-part>
-
-        <body-part>
-            <end-contents>
-                    <P style="font-family: Helios; font-size: 2.5vw; display: inline-block; color:">The group boast its &nbsp;</P><p class="the-group" style="font-family: Helios; color: red; display: inline-block; font-size: 2.5vw;">INTERACTIVE FEATURES</p>
-                    <p class="end-description">
-                        <br>
-                        Users can customizely 😎 add your planned meals, expenses and schedule 
-                        it for later time. Pick from our wide preset list 📃  of meals from your 
-                        favorite go-to-meal places. Lastly, view your meal plan right at your 
-                        fingertips using your email accounts, and by your phone 📲  bring your plan,
-                        <br>
-                    </p>
-                    <text class="anytime-anywhere" style="font-size: 2.5vw; font-family: Helios; color: red;" >ANYTIME, ANYWHERE!</text>
-            </end-contents>
-            <img class="body-part-design" src="images/33aec759c9.gif">
-            <img class="body-part-bg" src="images/bg3.png">
-        </body-part>
+            </div>
+        </section>
+        <section class="section-5">
+            <div class="section-5-container">
+                <div class="section-5-container-item-1"><img src="images/bg4.png" style="width: 100%;"></div>
+                <div class="section-5-container-item-2"><center><img src="images/the-group-boast-its-interactive-features.png" style="width: 80%"></center></div>
+                <div class="section-5-container-item-3">
+                    <p>Users can customizely 😎 add their planned meals, expenses and schedule it for later time. Pick from our wide preset list 📃  of meals from 
+                        your favorite go-to-meal places. Lastly, view your meal plan right at your fingertips using your email accounts, and by your phone 📲  
+                        bring your plan.</p>
+                </div>
+                <div class="section-5-container-item-4">
+                    <p>ANYTIME, ANYWHERE!</p>
+                </div>
+                <div class="section-5-container-item-5">
+                    <img src="images/33aec759c9.gif" width="120%">
+                </div>
+            </div>
+        </section>
         <section class="form">
             <img class="background-image" src="images/form-bg.png">
             <div class="contact-box">
@@ -110,28 +90,9 @@
                     <button type="button" class="btn">
                         Send Message <i class="fa-regular fa-paper-plane"></i>
                     </button>
-                    
                 </form>
             </div>
         </section>
-
-        <script>
-
-            let slideIndex = 0;
-            showSlides();
-
-            function showSlides() {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) {slideIndex = 1}
-            slides[slideIndex-1].style.display = "block";
-            setTimeout(showSlides, 2000); // Change image every 2 seconds
-            }
-
-        </script>
     </body>
+
 </html>

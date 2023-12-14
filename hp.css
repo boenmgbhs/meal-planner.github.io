@@ -1,3 +1,7 @@
+* {
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: Helios;
     src: url(fonts/Helios.ttf);
@@ -7,124 +11,281 @@ body {
     margin: 0px;
 }
 
-.nav {
-    text-align: center;
-    background-color: white;
+.nav-links {
+   list-style-type: none;
 }
 
-.nav-buttons {
-    list-style-type: none;
-
-}
-
-.nav-button {
-    list-style-type: none;
-    display: inline-block;
-}
-
-.home-button, .download-button, .about-us-button {
-    font-family: Helios;
-    font-size: medium;
-    font-weight: bold;
-    color: white;
-    background-color: black;
-    padding: 7px;
-    border-radius: 7px;
-    margin: 10px;
-    display: inline-block;
-}
-
-.mv {
-    background-image: url(images/header-bg.jpg);
-    height: 300px;
-}
-
-    .logo {
-        width: 350px;
-        margin-left: 30px;
-        padding-top: 30px
+    .nav-links-home, .nav-links-download, .nav-links-about-us {
+        display: inline-block;
     }
 
-.page-2 {
-    background-image: url(images/bg1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-    .page-element-block {
-        text-align: center;
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
-
-        .page-heading {
-            height: 50px;
-        }
-
-        .page-text {
+        .nav-links-home-button, .nav-links-download-button, .nav-links-about-us-button {
+            color: white;
             font-family: Helios;
-            font-size: medium;
+            font-size: 1.5vw;
+            background-color: #000;
+            border-radius: 5px 5px;
         }
 
-        .app-photo {
-            height: 100px;
-        }
-
-.page {
-    background-image: url(images/bg2.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
+section {
+    margin-bottom: -4px;
 }
 
-    .page-element-block2 {
+.section-1-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+    .section-1-container-item-1 {
+        grid-area: 1 / 1 / 10 / 17;
+        z-index: -1;
+    }
+
+    .section-1-container-item-2 {
+        grid-area: 4 / 3 / 8 / 7;
+    }
+
+
+.section-2-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+    .section-2-container-item-1 {
+        grid-area: 1 / 1 / 10 / 17;
+        z-index: -1;
+    }
+
+    .section-2-container-item-2 {
+        grid-area: 2 / 3 / 4 / 16;
+    }
+
+    .section-2-container-item-3 {
+        grid-area: 4 / 5 / 7 / 14;
+        font-family: Helios;
         text-align: center;
-        padding-bottom: 20%;
+        font-size: 2vw;
+    }
+
+    .section-2-container-item-4 {
+        grid-area: 7 / 7 / 9 / 11;
+        font-family: Helios;
+        text-align: center;
+        font-size: 2vw;
+    }
+
+/*THIS IS FOR SECTION 3 AND 4 SINCE THEY ARE TECHNICALLY THE SAME */
+.section-3-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+    .section-3-container-item-1 {
+        grid-area: 1 / 1 / 10 / 17;
+        z-index: -1;
+    }
+
+    .section-3-container-item-2 {
+        grid-area: 1 / 3 / 3 / 16;
+    }
+
+    .section-3-container-item-3 {
+        grid-area: 3 / 8 / 7 / 15;
+        text-align: left;
+        font-family: Helios;
+        font-size: 2vw;
+    }
+
+.section-5-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
     
+    .section-5-container-item-1 {
+        grid-area: 1 / 1 / 10 / 17;
+        z-index: -1;
     }
-
-
-        .page-heading2 {
-            height: 100px;
-
-        }
-
-        .page-text2 {
-            font-family: Helios;
-            font-size: medium;
-            text-align: left;
-            padding-top: 5%;
-            padding-left: 40%;
-        }
-
-.page-3 {
-    background-image: url(images/bg3.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-}
-        
-    .page-element-block2 {
+    
+    .section-5-container-item-2 {
+        grid-area: 2 / 4 / 4 / 15;
+    }
+    
+    .section-5-container-item-3 {
+        grid-area: 4 / 4 / 7 / 15;
         text-align: center;
-        padding-bottom: 20%;
+        font-family: Helios;
+        font-size: 2vw;
     }
-        
-        .page-heading2 {
-            height: 100px;
-        }
 
-        .out-heading {
-            display: inline-block;
-            font-family: Helios;
-            font-weight: bold;
-            font-size: larger;
-        }
-        
-        .page-text2 {
-            font-family: Helios;
-            font-size: medium;
-            text-align: left;
-            padding-top: 5%;
-            padding-left: 40%;
-        }
-            
+    .section-5-container-item-4 {
+        grid-area: 7 / 4 / 9 / 15;
+        text-align: center;
+        font-family: Helios;
+        font-size: 3vw;
+        color: red;
+    }
+
+    .section-5-container-item-5 {
+        grid-area: 1 / 13 / 6 / 17;
+        z-index: -1;
+    }
+
+/*--------------------------------------------------------------------*/
+/*STYLES FOR FORM SECTION*/
+.contact-box form h1 {
+    font-size: 4.5vw;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    margin-left: 5vw;
+}
+
+.contact-box form p {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5vw;
+}
+
+.form {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.contact-box {
+    width: 50%;
+    background-color: rgba(228, 191, 41, 0.8);
+    top: 0;
+    left: 75%;
+    transform: translateX(-50%);
+    position: absolute;
+    height: 100%;
+}
+
+form {
+    margin: 35px;
+}
+
+.label-container {
+    display: flex;
+    align-items: center;
+    height: 53px;
+    margin-left: 5vw;
+    font-size: 1.5vw;
+}
+
+.label-container i {
+    margin-right: 10px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+/* Floating Label styles */
+
+.input-field,
+.textarea-field {
+    width: 35vw;
+    height: 10vh;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    padding: 0 1vw;
+    border: 1px solid #777;
+    border-radius: 2em;
+    outline: none;
+    background-color: #FFEBB9;
+    font-weight: bold;
+    font-size: 1.5vw;
+    position: relative;
+}
+
+.input-field::before,
+.textarea-field::before {
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555; /* Adjust icon color */
+    font-size: 1.2em;
+}
+
+.input-field::before {
+    content: "\f007"; /* Unicode for fa-solid fa-user */
+}
+
+.textarea-field::before {
+    content: "\f0e0"; /* Unicode for fa-regular fa-envelope */
+}
+
+.input-field,
+.textarea-field,
+.input-field::before,
+.textarea-field::before {
+    transition: all 0.1s ease-in-out;
+}
+
+.input-field::before,
+.textarea-field::before {
+    transition: all 0.1s ease-in-out;
+    opacity: 0.5;
+}
+
+.input-field:focus::before,
+.textarea-field:focus::before,
+.input-field:not(:placeholder-shown)::before,
+.textarea-field:not(:placeholder-shown)::before {
+    font-size: 1em;
+    top: -20%;
+    opacity: 1;
+    color: #000;
+}
+
+.textarea-field {
+    height: 20.3vh;
+}
+
+.textarea-field:focus::before,
+.textarea-field:not(:placeholder-shown)::before {
+    top: 5%;
+}
+
+.btn {
+    border-radius: 2em;
+    color: #FF914D;
+    margin-top: 2vh;
+    padding: 1vh 2vw;
+    background-color: #FFFFFF;
+    font-size: 1.5vw;
+    border: none;
+    cursor: pointer;
+    width: 37vw;
+    margin-left: 5vw;
+    height: 7vh;
+    font-weight: bold;
+}
+
