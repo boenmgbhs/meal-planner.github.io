@@ -7,15 +7,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <nav>
-            <div class="nav-items">
-                <ul class="nav-links">
-                    <li class="nav-links-home"><button class="nav-links-home-button">HOME</button></li>
-                    <li class="nav-links-download"><button class="nav-links-download-button">DOWNLOAD</button></li>
-                    <li class="nav-links-about-us"><button class="nav-links-about-us-button">ABOUT US</button></li>
-                </ul>
+        <center>
+            <div class="nav-buttons" bis_skin_checked="1">
+            <ul style="list-style-type: none; align-items: center; padding: 0px; ">
+                <li style="display: inline-block;"><button class="home-button">HOME</button></li>
+                <li style="display: inline-block;"><button class="download-button">DOWNLOAD</button></li>
+
+                <!--ABOUT and US are being separated to follow the Canva
+                design, wherein the US text is orange.-->
+                <li style="display: inline-block;"><button class="about-us-button">ABOUT <o>US</o></button></li>
+            </ul>
             </div>
-        </nav>
+        </center>
         <section class="section-1">
             <div class="section-1-container">
                 <div class="section-1-container-item-1"><img src="images/header-bg.png" style="width: 100%;"></div>
@@ -94,5 +97,4 @@
             </div>
         </section>
     </body>
-
 </html>
