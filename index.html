@@ -7,16 +7,49 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "182164604979902");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v18.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
         <section class="section-1">
             <div class="section-1-container">
                 <div class="section-1-container-item-1"><img src="images/header-bg.png" style="width: 100%;"></div>
                 <div class="section-1-container-item-2"><center><img src="images/logo.png" width="100%" style="border-radius: 10%;"></center></div>
-                <div class="section-1-container-item-3">
-                <center>
-                    <button class="home-button">HOME</button></li>
-                    <a href="download-page.html"><button class="download-button">DOWNLOAD</button>
-                    <a href="about-us.html"><button class="about-us-button">ABOUT <o>US</o></button></a>
-                </center>
+                <div class="section-1-container-item-3"></div>
+                <div class="section-1-container-item-4">
+                    <center>
+                        <button class="home-button">HOME</button></li>
+                        <a href="download-page.html"><button class="download-button">DOWNLOAD</button>
+                        <a href="about-us.html"><button class="about-us-button">ABOUT <o>US</o></button></a>
+                    </center>
                 </div>
             </div>
         </section>
@@ -69,27 +102,50 @@
                 <div class="section-5-container-item-5">
                     <img src="images/33aec759c9.gif" width="120%">
                 </div>
+                <div class="section-5-container-item-6">
+                    <center>
+                        <button onclick="topFunction()" class="download-button" id="myBtn">TOP</button>
+                    </center>
+                </div>
             </div>
+            <div id="fb-root"></div>
+
+            <div id="fb-customer-chat" class="fb-customerchat"></div>
         </section>
-        <section class="form">
-            <img class="background-image" src="images/form-bg.png">
-            <div class="contact-box">
-                <form>
-                    <h1>Contact us</h1>
-                    <p>If you have any concerns, just leave a message!</p>
-    
-                    <div class="input-container">
-                        <input type="text" class="input-field" name="user" placeholder="Name">
-                    </div>
-                    <div class="input-container">
-                        <input type="email" class="input-field" id="email" placeholder="Email">
-                    </div>
-                    <input type="text" class="input-field textarea-field" placeholder="Message">
-                    <button type="button" class="btn">
-                        Send Message <i class="fa-regular fa-paper-plane"></i>
-                    </button>
-                </form>
-            </div>
-        </section>
+
+        <script>
+            var chatbox = document.getElementById('fb-customer-chat');
+            chatbox.setAttribute("page_id", "PAGE-ID");
+            chatbox.setAttribute("attribution", "biz_inbox");
+          </script>
+      
+      
+          <script>
+            window.fbAsyncInit = function() {
+              FB.init({
+                xfbml            : true,
+                version          : 'API-VERSION'
+              });
+            };
+      
+            (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+          </script>
+
+        <script>
+            // Get the button:
+            let mybutton = document.getElementById("myBtn");
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0; // For Safari
+              document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+        </script>
     </body>
 </html>
