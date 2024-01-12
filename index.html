@@ -5,42 +5,49 @@
         <title>Meal Planner - Homepage</title>
         <link rel="stylesheet" href="hp.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+            // List of image URLs to loop through
+            const imageUrls = ["images/add-app.png", "images/other-app.png", "images/pick-app.png"];
+
+            // Get the image element
+            const imageElement = document.querySelector('.section-1-container-item-5 img');
+
+            // Function to change the image with a fading transition
+            function changeImage() {
+                let currentIndex = 0;
+
+                // Set an interval to change the image every 3 seconds
+                setInterval(() => {
+                    // Fade out the image
+                    imageElement.style.opacity = 0;
+
+                    // After a short delay, change the image source and fade it back in
+                    setTimeout(() => {
+                        imageElement.src = imageUrls[currentIndex];
+                        currentIndex = (currentIndex + 1) % imageUrls.length;
+
+                        // Use requestAnimationFrame to ensure the style changes are applied before fading in
+                        requestAnimationFrame(() => {
+                            // Reset opacity to fade in
+                            imageElement.style.opacity = 1;
+                        });
+                    }, 500); // Adjust the delay as needed
+                }, 3000);
+            }
+
+            // Call the function to start the image rotation
+            changeImage();
+        });
+        </script>
     </head>
     <body>
-    <!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "182164604979902");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v18.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
-
         <section class="section-1">
             <div class="section-1-container">
-                <div class="section-1-container-item-1"><img src="images/header-bg.png" style="width: 100%;"></div>
+                <div class="section-1-container-item-1">
+                    <img src="images/header-bg.png" style="width: 100%;">
+                </div>
                 <div class="section-1-container-item-2"><center><img src="images/logo.png" width="100%" style="border-radius: 10%;"></center></div>
                 <div class="section-1-container-item-3"></div>
                 <div class="section-1-container-item-4">
@@ -49,6 +56,9 @@
                         <a href="download-page.html"><button class="download-button">DOWNLOAD</button>
                         <a href="about-us.html"><button class="about-us-button">ABOUT <o>US</o></button></a>
                     </center>
+                </div>
+                <div class="section-1-container-item-5">
+                    <img src="" width="100%">
                 </div>
             </div>
         </section>
@@ -63,7 +73,7 @@
                     will aim to monitor the food expenses of the students 
                     by allowing them to plan their meals in advance.</p>
                 </div>
-                <div class="section-2-container-item-4"><center><img src="images/pc-icon.png" style="width: 50%"></center></div>
+                <div class="section-2-container-item-4"><center><img src="images/other-app.png" style="width: 100%"></center></div>
             </div>
         </section>
         <section class="section-3">
@@ -74,6 +84,9 @@
                     <p>In this Meal Planner, you were able to set and pick your own food plan, pick a day with just one click. 
                         Planning your food right away can save your time.</p>
                 </div>
+                <div class="section-3-container-item-4">
+                    <img src="images/add-app.png" width="100%">
+                </div>
             </div>
         </section>
         <section class="section-3">
@@ -83,6 +96,9 @@
                 <div class="section-3-container-item-3">
                     <p>With this application you were able to set your own food plan, pick your 
                         choices of foods and drinks and set it for the next day.</p>
+                </div>
+                <div class="section-3-container-item-4">
+                    <img src="images/pick-app.png" width="100%">
                 </div>
             </div>
         </section>
@@ -103,7 +119,7 @@
                 </div>
                 <div class="section-5-container-item-6">
                     <center>
-                        <button onclick="topFunction()" class="download-button" id="myBtn">TOP</button>
+                        <button type="submit" onclick="topFunction()" class="download-button" id="myBtn"><img src="images/arrow.png" width="70%"></button>
                     </center>
                 </div>
             </div>

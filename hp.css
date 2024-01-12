@@ -18,7 +18,6 @@
         margin: 7px;
         font-family: Helios;
         font-size: 1.5vw;
-        background-color: black;
         padding-right: 15px;
         padding-left: 15px;
         padding-bottom: 7px;
@@ -110,96 +109,114 @@
             background: rgba(255, 255, 255, 0.5);
             height: 100%;
         }
-    
-    .section-2-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        align-items: center;
-    }
-    
-        .section-2-container-item-1 {
-            grid-area: 1 / 1 / 10 / 17;
-            z-index: -1;
+
+        .section-1-container-item-5 {
+            grid-area: 4 / 10 / 8 / 16;
+        }
+
+        .section-1-container-item-5 img {
+            transition: opacity 1s ease-in-out;
+            border-radius: 10%;
         }
     
-        .section-2-container-item-2 {
-            grid-area: 2 / 3 / 4 / 16;
-        }
-    
-        .section-2-container-item-3 {
-            grid-area: 4 / 5 / 7 / 14;
-            font-family: Helios;
-            text-align: center;
-            font-size: 2vw;
-        }
-    
-        .section-2-container-item-4 {
-            grid-area: 7 / 7 / 9 / 11;
-            font-family: Helios;
-            text-align: center;
-            font-size: 2vw;
-        }
-    
-    /*THIS IS FOR SECTION 3 AND 4 SINCE THEY ARE TECHNICALLY THE SAME */
-    .section-3-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        align-items: center;
-    }
-    
-        .section-3-container-item-1 {
-            grid-area: 1 / 1 / 10 / 17;
-            z-index: -1;
-        }
-    
-        .section-3-container-item-2 {
-            grid-area: 1 / 3 / 3 / 16;
-        }
-    
-        .section-3-container-item-3 {
-            grid-area: 3 / 8 / 7 / 15;
-            text-align: left;
-            font-family: Helios;
-            font-size: 2vw;
-        }
-    
-    .section-5-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        align-items: center;
-    }
-        
-        .section-5-container-item-1 {
-            grid-area: 1 / 1 / 10 / 17;
-            z-index: -1;
+        .section-2-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            align-items: center;
         }
         
-        .section-5-container-item-2 {
-            grid-area: 2 / 4 / 4 / 15;
+            .section-2-container-item-1 {
+                grid-area: 1 / 1 / 10 / 17;
+                z-index: -1;
+            }
+        
+            .section-2-container-item-2 {
+                grid-area: 2 / 3 / 4 / 16;
+            }
+        
+            .section-2-container-item-3 {
+                grid-area: 4 / 5 / 7 / 14;
+                font-family: Helios;
+                text-align: center;
+                font-size: 2vw;
+            }
+        
+            .section-2-container-item-4 {
+                grid-area: 6 / 7 / 9 / 11;
+                font-family: Helios;
+                text-align: center;
+                font-size: 2vw;
+            }
+        
+        /*THIS IS FOR SECTION 3 AND 4 SINCE THEY ARE TECHNICALLY THE SAME */
+        .section-3-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            align-items: center;
         }
         
-        .section-5-container-item-3 {
-            grid-area: 4 / 4 / 7 / 15;
-            text-align: center;
-            font-family: Helios;
-            font-size: 2vw;
+            .section-3-container-item-1 {
+                grid-area: 1 / 1 / 10 / 17;
+                z-index: -1;
+            }
+        
+            .section-3-container-item-2 {
+                grid-area: 1 / 3 / 3 / 16;
+            }
+        
+            .section-3-container-item-3 {
+                grid-area: 3 / 8 / 7 / 15;
+                text-align: left;
+                font-family: Helios;
+                font-size: 2vw;
+            }
+        
+            .section-3-container-item-4 {
+                grid-area: 3 / 2 / 8 / 8;
+                align-items: center;
+            }
+        
+        .section-5-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            align-items: center;
         }
-    
-        .section-5-container-item-4 {
-            grid-area: 7 / 4 / 9 / 15;
-            text-align: center;
-            font-family: Helios;
-            font-size: 3vw;
-            color: red;
-        }
-    
-        .section-5-container-item-5 {
-            grid-area: 1 / 12 / 6 / 16;
-            z-index: -1;
-        }
+            
+            .section-5-container-item-1 {
+                grid-area: 1 / 1 / 10 / 17;
+                z-index: -1;
+            }
+            
+            .section-5-container-item-2 {
+                grid-area: 2 / 4 / 4 / 15;
+            }
+            
+            .section-5-container-item-3 {
+                grid-area: 4 / 4 / 7 / 15;
+                text-align: center;
+                font-family: Helios;
+                font-size: 2vw;
+            }
+        
+            .section-5-container-item-4 {
+                grid-area: 7 / 4 / 9 / 15;
+                text-align: center;
+                font-family: Helios;
+                font-size: 3vw;
+                color: red;
+            }
+        
+            .section-5-container-item-5 {
+                grid-area: 1 / 12 / 6 / 16;
+                z-index: -1;
+            }
+        
+            .section-5-container-item-6 {
+                grid-area: 7 / 14 / 9 / 16;
+            }
     
     /*--------------------------------------------------------------------*/
     /*STYLES FOR FORM SECTION*/
@@ -453,6 +470,14 @@ section {
         height: 100%;
     }
 
+    .section-1-container-item-5 {
+        grid-area: 4 / 10 / 8 / 16;
+    }
+
+    .section-1-container-item-5 img {
+        transition: opacity 1s ease-in-out;
+        border-radius: 10%;
+    }
 
 .section-2-container {
     display: grid;
@@ -478,7 +503,7 @@ section {
     }
 
     .section-2-container-item-4 {
-        grid-area: 7 / 7 / 9 / 11;
+        grid-area: 6 / 7 / 9 / 11;
         font-family: Helios;
         text-align: center;
         font-size: 2vw;
@@ -506,6 +531,11 @@ section {
         text-align: left;
         font-family: Helios;
         font-size: 2vw;
+    }
+
+    .section-3-container-item-4 {
+        grid-area: 3 / 2 / 8 / 8;
+        align-items: center;
     }
 
 .section-5-container {
