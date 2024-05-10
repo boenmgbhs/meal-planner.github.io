@@ -27,7 +27,7 @@
         transition: 0.3s;
     }
     
-    .home-button, .download-button, .about-us-button {
+    .download-button, .about-us-button {
         color: white;
         margin: 7px;
         font-family: Helios;
@@ -42,10 +42,22 @@
         transition: 0.3s;
     }
 
-    .home-button:hover {
-        background-color: white;
+    .home-button {
         color: black;
+        margin: 7px;
+        font-family: Helios;
+        font-size: 1.5vw;
+        background-color: white;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+        border-radius: 7px 7px;
+        font-weight: bold;
+        transition: 0.3s;
     }
+
+    
     
     .download-button:hover {
         background-color: white;

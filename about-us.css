@@ -124,7 +124,7 @@ o {
 
 
     .section-2-container-item-profile-1 {
-        grid-area: 3/8/5/10;
+        grid-area: 3/6/5/8;
     }
 
     .section-2-container-item-profile-1 > img {
@@ -133,7 +133,7 @@ o {
     }
 
     .section-2-container-item-profile-2 {
-        grid-area: 3/5/5/7;
+        grid-area: 3/3/5/5;
     }
 
     .section-2-container-item-profile-2 > img {
@@ -141,7 +141,7 @@ o {
     }
 
     .section-2-container-item-profile-3 {
-        grid-area: 3/11/5/13;
+        grid-area: 3/12/5/14;
     }
 
     .section-2-container-item-profile-3 > img {
@@ -149,7 +149,7 @@ o {
     }
 
     .section-2-container-item-profile-4 {
-        grid-area: 5/8/7/10;
+        grid-area: 3/9/5/11;
     }
 
     .section-2-container-item-profile-4 > img {
@@ -157,7 +157,7 @@ o {
     }
 
     .section-2-container-item-profile-5 {
-        grid-area: 5/5/7/7;
+        grid-area: 5/12/7/14;
     }
 
     .section-2-container-item-profile-5 > img {
@@ -165,10 +165,26 @@ o {
     }
     
     .section-2-container-item-profile-6 {
-        grid-area: 5/11/7/13;
+        grid-area: 5/3/7/5;
     }
 
     .section-2-container-item-profile-6 > img {
+        border-radius: 50%;
+    }
+
+    .section-2-container-item-profile-7 {
+        grid-area: 5/6/7/8;
+    }
+
+    .section-2-container-item-profile-7 > img {
+        border-radius: 50%;
+    }
+
+    .section-2-container-item-profile-8 {
+        grid-area: 5/9/7/11;
+    }
+
+    .section-2-container-item-profile-8 > img {
         border-radius: 50%;
     }
 
@@ -222,6 +238,10 @@ o {
         text-align: left;
         font-size: 2vw;
 
+    }
+
+    .step-description{
+        font-size: 70%;
     }
 
     .section-3-container-item-6{
